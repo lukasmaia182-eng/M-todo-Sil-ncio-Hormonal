@@ -23,7 +23,7 @@ export function FrioFinalCTA() {
           href="#oferta-frio"
           className="inline-flex items-center justify-center gap-2 bg-[var(--color-brand)] text-white font-bold rounded-full px-10 py-4 text-lg hover:bg-[oklch(0.52_0.22_350)] transition-all shadow-xl shadow-[var(--color-brand)]/40 btn-pulse w-full max-w-sm"
         >
-          Quero me libertar — R$44
+          Quero me libertar — R$27,90
         </a>
 
         <p className="text-white/30 text-xs mt-4">

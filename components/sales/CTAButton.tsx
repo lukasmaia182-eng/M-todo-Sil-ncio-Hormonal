@@ -24,7 +24,7 @@ export function CTAButton({ size = 'default', className, variant = 'primary' }: 
           className
         )}
       >
-        Quero me libertar — R$44
+        Quero me libertar — R$27,90
       </a>
     )
   }

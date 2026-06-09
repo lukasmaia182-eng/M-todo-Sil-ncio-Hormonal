@@ -91,7 +91,7 @@ export function FinalCTA() {
           </a>
           <p className="text-white/60 text-sm">
             De <span className="line-through">R$197</span> por apenas{' '}
-            <span className="text-[var(--color-gold)] font-semibold">R$44</span>
+            <span className="text-[var(--color-gold)] font-semibold">R$27,90</span>
             {' '}· Vagas limitadas · Garantia de 7 dias
           </p>
         </div>
