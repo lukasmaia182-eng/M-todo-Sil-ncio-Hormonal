@@ -125,7 +125,7 @@ export function ScheduleSection() {
           <CTAButton size="lg" />
           <p className="text-muted-foreground text-xs mt-3">
             De <span className="line-through">R$197</span> por{' '}
-            <span className="text-[var(--color-brand)] font-bold">R$44</span>
+            <span className="text-[var(--color-brand)] font-bold">R$19,90</span>
             {' '}· Garantia de 7 dias · Vagas limitadas
           </p>
         </div>

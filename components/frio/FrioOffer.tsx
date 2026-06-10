@@ -41,7 +41,7 @@ export function FrioOffer() {
             {[
               { label: '1 sessão de terapia', price: 'R$150–300', neutral: true },
               { label: 'Coaching individual', price: 'R$500+/mês', neutral: true },
-              { label: 'Este programa', price: 'R$44', highlight: true },
+              { label: 'Este programa', price: 'R$19,90', highlight: true },
             ].map((item) => (
               <div
                 key={item.label}
@@ -63,12 +63,12 @@ export function FrioOffer() {
 
         {/* CTA */}
         <a
-          href="https://pay.hotmart.com/seu-link"
+          href="https://go.perfectpay.com.br/PPU38CQD1EK"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full inline-flex items-center justify-center gap-2 bg-[var(--color-brand)] text-white font-bold rounded-full px-8 py-4 text-lg hover:bg-[oklch(0.52_0.22_350)] transition-all shadow-lg shadow-[var(--color-brand)]/30 btn-pulse"
         >
-          Quero me libertar — R$44
+          Quero me libertar — R$19,90
         </a>
         <p className="text-center text-muted-foreground text-xs mt-3">
           Acesso imediato após o pagamento · Pix, Cartão ou Boleto

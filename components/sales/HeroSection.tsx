@@ -54,7 +54,9 @@ export function HeroSection() {
             {/* CTA principal */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mb-6">
               <a
-                href="#oferta"
+                href="https://go.perfectpay.com.br/PPU38CQD1EK"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[var(--color-brand)] text-white font-bold rounded-full px-8 py-4 text-lg hover:bg-[oklch(0.52_0.22_350)] transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-[var(--color-brand)]/30 btn-pulse"
               >
                 Quero me libertar agora
@@ -64,7 +66,7 @@ export function HeroSection() {
               </a>
               <div className="text-foreground/55 text-sm">
                 <span className="line-through text-foreground/30">R$197</span>{' '}
-                <span className="text-[var(--color-brand)] font-bold">R$44</span>
+                <span className="text-[var(--color-brand)] font-bold">R$19,90</span>
                 {' '}· pagamento único
               </div>
             </div>

@@ -16,7 +16,9 @@ export function CTAButton({ size = 'default', className, variant = 'primary' }: 
   if (variant === 'secondary') {
     return (
       <a
-        href="#oferta"
+        href="https://go.perfectpay.com.br/PPU38CQD1EK"
+        target="_blank"
+        rel="noopener noreferrer"
         className={cn(
           'inline-flex items-center justify-center gap-3 font-bold rounded-full transition-all duration-300',
           'bg-white/10 text-white border-2 border-white/30 hover:bg-white/20',
@@ -24,14 +26,16 @@ export function CTAButton({ size = 'default', className, variant = 'primary' }: 
           className
         )}
       >
-        Quero me libertar — R$44
+        Quero me libertar — R$19,90
       </a>
     )
   }
 
   return (
     <a
-      href="#oferta"
+      href="https://go.perfectpay.com.br/PPU38CQD1EK"
+      target="_blank"
+      rel="noopener noreferrer"
       className={cn(
         'inline-flex items-center justify-center gap-3 font-bold rounded-full transition-all duration-300 transform hover:scale-[1.03] active:scale-[0.98] shadow-lg hover:shadow-xl',
         'bg-[var(--color-brand)] text-white hover:bg-[oklch(0.52_0.22_350)]',
