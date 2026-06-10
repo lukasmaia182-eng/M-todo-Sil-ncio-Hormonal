@@ -1619,3 +1619,327 @@ export function getDayContent(day: number): DayContent | undefined {
 }
 
 export const totalDays = 90
+
+const themeImages: Record<string, string> = {
+  'Consciência':      '/membros/tema-consciencia.png',
+  'Compreensão':      '/membros/tema-consciencia.png',
+  'Corporalidade':    '/membros/tema-corpo.png',
+  'Expressão':        '/membros/tema-cura.png',
+  'Limites':          '/membros/tema-limites.png',
+  'Luto':             '/membros/tema-cura.png',
+  'Autocompaixão':    '/membros/tema-consciencia.png',
+  'Autoconhecimento': '/membros/tema-identidade.png',
+  'Desapego':         '/membros/tema-futuro.png',
+  'Identidade':       '/membros/tema-identidade.png',
+  'Emoções':          '/membros/tema-cura.png',
+  'Realidade':        '/membros/tema-consciencia.png',
+  'Conexão':          '/membros/tema-corpo.png',
+  'Gratidão':         '/membros/tema-futuro.png',
+  'Crenças':          '/membros/tema-consciencia.png',
+  'Autoestima':       '/membros/tema-identidade.png',
+  'Perdão':           '/membros/tema-futuro.png',
+  'Relações':         '/membros/tema-relacionamentos.png',
+  'Propósito':        '/membros/tema-futuro.png',
+  'Transformação':    '/membros/tema-futuro.png',
+  'Liberdade':        '/membros/tema-futuro.png',
+  'Marco':            '/membros/tema-marco.png',
+  'Processo':         '/membros/tema-consciencia.png',
+  'Redescoberta':     '/membros/tema-identidade.png',
+  'Aceitação':        '/membros/tema-corpo.png',
+  'Gatilhos':         '/membros/tema-cura.png',
+  'Ambiente':         '/membros/tema-consciencia.png',
+  'Raiva':            '/membros/tema-cura.png',
+  'Prazer':           '/membros/tema-futuro.png',
+  'História':         '/membros/tema-identidade.png',
+  'Somático':         '/membros/tema-corpo.png',
+  'Espiritual':       '/membros/tema-consciencia.png',
+  'Criação':          '/membros/tema-futuro.png',
+  'Confiança':        '/membros/tema-identidade.png',
+  'Necessidades':     '/membros/tema-limites.png',
+  'Comunicação':      '/membros/tema-corpo.png',
+  'Recaída':          '/membros/tema-cura.png',
+  'Apoio':            '/membros/tema-corpo.png',
+  'Amor':             '/membros/tema-futuro.png',
+  'Compaixão':        '/membros/tema-consciencia.png',
+  'Energia':          '/membros/tema-corpo.png',
+  'Sonhos':           '/membros/tema-futuro.png',
+  'Sexualidade':      '/membros/tema-identidade.png',
+  'Legado':           '/membros/tema-futuro.png',
+  'Integração':       '/membros/tema-consciencia.png',
+  'Prática':          '/membros/tema-corpo.png',
+  'Abundância':       '/membros/tema-futuro.png',
+  'Intuição':         '/membros/tema-consciencia.png',
+  'Memórias':         '/membros/tema-cura.png',
+  'Digital':          '/membros/tema-limites.png',
+  'Estrutura':        '/membros/tema-corpo.png',
+  'Crítica':          '/membros/tema-limites.png',
+  'Sabedoria':        '/membros/tema-consciencia.png',
+  'Autopercepção':    '/membros/tema-identidade.png',
+  'Resiliência':      '/membros/tema-futuro.png',
+  'Vitórias':         '/membros/tema-marco.png',
+  'Escolha':          '/membros/tema-identidade.png',
+  'Compromisso':      '/membros/tema-limites.png',
+  'Saudade':          '/membros/tema-cura.png',
+  'Generosidade':     '/membros/tema-corpo.png',
+  'Futuro':           '/membros/tema-futuro.png',
+  'Força':            '/membros/tema-corpo.png',
+  'Presença':         '/membros/tema-consciencia.png',
+  'Autenticidade':    '/membros/tema-identidade.png',
+  'Síntese':          '/membros/tema-futuro.png',
+  'Reflexão':         '/membros/tema-consciencia.png',
+  'Continuidade':     '/membros/tema-futuro.png',
+  'Celebração Final': '/membros/tema-marco.png',
+}
+
+export function getThemeImage(theme: string): string {
+  return themeImages[theme] ?? '/membros/tema-consciencia.png'
+}
+export interface EbookChapter {
+  chapter: number
+  title: string
+  content: string
+}
+
+export const ebookCapitulos: EbookChapter[] = [
+  {
+    chapter: 1,
+    title: 'O Que É Narcisismo — De Verdade',
+    content: `O termo "narcisismo" se tornou popular, mas poucos entendem sua complexidade clínica e relacional. Derivado do mito grego de Narciso — o jovem que se apaixonou pelo próprio reflexo — o narcisismo, em sua forma patológica, vai muito além de vaidade ou egocentrismo.
+
+O Transtorno de Personalidade Narcisista (TPN), conforme descrito no DSM-5, envolve um padrão pervasivo de grandiosidade, necessidade constante de admiração e falta de empatia. Mas o que a maioria das pessoas encontra em relacionamentos não é necessariamente um diagnóstico clínico — é um espectro de comportamentos narcisistas que variam em intensidade.
+
+**O Espectro Narcisista**
+
+O narcisismo existe em um espectro. Na ponta mais branda, temos traços narcisistas que muitas pessoas apresentam em menor grau — busca por reconhecimento, dificuldade ocasional em reconhecer os sentimentos do outro. Na ponta mais intensa, temos o narcisismo maligno, que inclui elementos de paranoia, antissocialidade e crueldade calculada.
+
+O que importa para você, leitora, não é a classificação clínica — é reconhecer os padrões comportamentais que causaram dano na sua vida.
+
+**Tipos de Narcisismo**
+
+*Narcisismo grandioso* é o mais reconhecível: a pessoa que ocupa todo o espaço, que fala sobre si mesma constantemente, que precisa ser o centro das atenções. Exibicionista, dominante, frequentemente carismática.
+
+*Narcisismo encoberto* (ou vulnerável) é mais difícil de identificar: a pessoa que se coloca constantemente como vítima, que usa fragilidade para manipular, que parece tímida mas tem uma arrogância interior intensa. Hipersensível a críticas, mas raramente capaz de assumir responsabilidade.
+
+Em ambos os tipos, o padrão central é o mesmo: a incapacidade de se relacionar com o outro como um ser separado e completo, com necessidades e sentimentos igualmente válidos.
+
+**O Que Não É Narcisismo**
+
+Nem toda pessoa difícil é narcisista. Nem todo relacionamento problemático envolve narcisismo. É importante ter cuidado com o uso excessivo do termo, que pode levar a um pensamento binário que empobrece a compreensão das relações humanas.
+
+O foco deste ebook não é diagnosticar o outro — é ajudar você a entender o que viveu, por que foi tão difícil sair, e como trilhar o caminho de volta para si mesma.`,
+  },
+  {
+    chapter: 2,
+    title: 'Como o Vínculo Traumático Se Forma',
+    content: `Para entender por que é tão difícil sair de um relacionamento com uma pessoa narcisista, precisamos entender o que acontece no cérebro e no sistema nervoso durante esse processo.
+
+**A Fase de Idealização**
+
+Todo relacionamento com características narcisistas começa de forma avassaladora. O que os especialistas chamam de "love bombing" — bombardeamento de amor — é a fase inicial de admiração intensa, atenção constante, declarações grandiosas de amor, a sensação de ter encontrado alguém que finalmente te vê completamente.
+
+Essa fase ativa o sistema dopaminérgico do cérebro — o mesmo sistema envolvido nas dependências. Você literalmente sente prazer intenso associado a essa pessoa. Conexões neurais profundas se formam.
+
+**A Virada: Desvaloração**
+
+Gradualmente — ou às vezes abruptamente — a fase de idealização dá lugar à desvalorização. Críticas sutis, indiferença calculada, mudanças de humor imprevisíveis. A pessoa que parecia perfeita começa a revelar um padrão diferente.
+
+O impacto é poderoso porque contrasta brutalmente com o que veio antes. Seu sistema nervoso não consegue processar a incoerência. Você passa a trabalhar para "recuperar" a pessoa que conheceu no início.
+
+**Recompensa Intermitente**
+
+O elemento que torna o vínculo traumático tão poderoso é a imprevisibilidade. Pesquisas em psicologia comportamental demonstram que reforços intermitentes �� recompensas que aparecem de forma aleatória — criam os vínculos mais resistentes e difíceis de extinguir.
+
+É o princípio do caça-níquel. Você nunca sabe quando vai ganhar, então continua apostando. No relacionamento, nunca sabe quando vai receber afeto genuíno, então continua tentando.
+
+**O Sistema Nervoso em Alerta**
+
+Ao longo do tempo, seu sistema nervoso aprende a estar em alerta constante. Monitorar o humor do outro. Antecipar explosões. Tentar prevenir conflitos. Essa hipervigilância é um mecanismo de sobrevivência que, fora do ambiente abusivo, continua disparando.
+
+É por isso que mesmo após o término, você pode sentir seu sistema nervoso ainda ativado — ansiedade, hipersensibilidade, dificuldade em relaxar. Não é fraqueza. É o legado neurológico de um ambiente de ameaça crônica.
+
+**O Caminho da Cura**
+
+Reconhecer como o vínculo se formou é o primeiro passo para desfazê-lo. Não basta querer não sentir mais — é preciso, literalmente, criar novas conexões neurais através de novas experiências: de segurança, de consistência, de cuidado genuíno.
+
+Isso leva tempo. Mas acontece.`,
+  },
+  {
+    chapter: 3,
+    title: 'Os Sinais que Ignoramos — e Por Quê',
+    content: `Uma das perguntas que mais tortura quem saiu de um relacionamento abusivo é: "Por que eu não vi antes?" A resposta envolve neurociência, psicologia social e, frequentemente, uma história pessoal mais antiga.
+
+**Processamento Cognitivo Sob Ameaça**
+
+Quando estamos em um ambiente de estresse crônico, o córtex pré-frontal — a região do cérebro responsável pelo raciocínio lógico, tomada de decisão e perspectiva — tem sua função reduzida. A amígdala, centro de processamento do medo, assume o controle.
+
+Em termos práticos, isso significa que sua capacidade de "pensar com clareza" sobre a relação estava comprometida enquanto você estava dentro dela. Não porque você é menos inteligente — mas porque seu cérebro estava em modo de sobrevivência.
+
+**Normalização Gradual**
+
+O abuso raramente começa de forma intensa. Começa com pequenos comentários, ciúmes apresentado como amor, críticas disfarçadas de cuidado. Cada episódio prepara o terreno para o próximo, elevando gradualmente o limiar do que parece "normal".
+
+É o que os pesquisadores chamam de "moving the goalposts" — as balizas se movem tão devagar que você não percebe o quanto se afastou do ponto inicial.
+
+**O Poder da Esperança**
+
+A esperança é parte fundamental de quem somos. E em relacionamentos com ciclos de abuso e reconciliação, a esperança se torna um mecanismo de aprisionamento.
+
+Cada reconciliação, cada momento de afeto genuíno, cada promessa de mudança alimenta a esperança de que a versão idealizada da pessoa vai prevalecer. Essa esperança não é ingenuidade — é uma resposta humana natural.
+
+**O Papel da Vergonha**
+
+A vergonha é, talvez, o maior obstáculo para a saída. "O que as pessoas vão pensar?", "Como vou explicar que fiquei tanto tempo?", "As pessoas vão achar que sou fraca."
+
+A vergonha nos mantém silenciosas. E o silêncio mantém o ciclo.
+
+**Uma Perspectiva Diferente**
+
+Você não ficou porque era fraca, ingênua ou insensata. Ficou porque os mecanismos de controle foram sofisticados o suficiente para manter você lá. Porque seu coração é capaz de amar profundamente. Porque você estava tentando salvar algo em que acreditava.
+
+Esses não são defeitos. São características de uma pessoa capaz de amor genuíno — que merece receber o mesmo em troca.`,
+  },
+  {
+    chapter: 4,
+    title: 'Gaslighting: Quando a Realidade É Sequestrada',
+    content: `O termo "gaslighting" vem da peça e filme "Gaslight" (1944), em que um marido manipula sistematicamente sua esposa para que ela duvide da própria sanidade, alterando sutilmente elementos do ambiente ao seu redor.
+
+Na psicologia moderna, gaslighting é definido como uma forma de abuso psicológico em que o perpetrador faz a vítima questionar sua própria memória, percepção e sanidade.
+
+**Como o Gaslighting Funciona**
+
+*Negação*: "Isso nunca aconteceu." "Você está inventando." Mesmo diante de evidências claras, a pessoa nega veementemente os fatos.
+
+*Trivialização*: "Você é muito sensível." "Não tem nada a ver com o que você está pensando." As preocupações são minimizadas ou ridicularizadas.
+
+*Desvio*: Quando confrontado, a pessoa muda o assunto ou questiona a credibilidade de quem questiona. "Você sempre faz isso, faz uma tempestade num copo d'água."
+
+*Esquecimento seletivo*: "Eu nunca disse isso." Mesmo para situações que você tem certeza de ter acontecido, a pessoa jura não ter acontecido.
+
+**O Efeito Acumulativo**
+
+Isolado, um episódio de gaslighting pode ser ignorado. O problema é o padrão — a repetição constante que, ao longo do tempo, corrói sua confiança na própria percepção.
+
+Você começa a se desculpar por sentir o que sente. A checar constantemente se sua interpretação está "certa". A precisar de validação externa antes de confiar no próprio julgamento.
+
+**Recuperando Sua Percepção**
+
+O caminho de volta começa com a documentação: escrever o que aconteceu, o que foi dito, o que você sentiu. Não para construir um caso — mas para ter uma âncora na realidade quando sua memória for questionada.
+
+Envolve também buscar perspectivas externas confiáveis: um terapeuta, uma amiga próxima que você sabe que te conhece bem e é honesta.
+
+E, fundamentalmente, envolve praticar confiar em si mesma — começando com pequenas coisas. Confiar que você tem frio quando tem frio. Que você está cansada quando está cansada. Que você percebeu o que percebeu.
+
+Sua realidade é real. E você está recuperando o direito de habitá-la.`,
+  },
+  {
+    chapter: 5,
+    title: 'O Processo de Cura',
+    content: `A cura de um relacionamento com características narcisistas é um processo não-linear que envolve múltiplas dimensões: emocional, cognitiva, corporal e social. Não existe uma linha reta do trauma à liberdade — existe um caminho que inclui avanços, retrocessos, surpresas e descobertas.
+
+**A Jornada em Fases**
+
+Embora cada pessoa seja única, muitos especialistas descrevem fases típicas na cura de relacionamentos abusivos:
+
+*Reconhecimento*: O momento em que você começa a ver o relacionamento com clareza, frequentemente após o término ou enquanto ainda está nele. Pode ser gradual ou abrupto.
+
+*Crise e Estabilização*: O período imediatamente após a separação, que pode incluir sintomas agudos de ansiedade, depressão, confusão, saudade intensa. É um momento que requer suporte.
+
+*Processamento*: A fase mais longa, em que você começa a integrar o que aconteceu — a raiva, o luto, a compreensão dos padrões, a reconstrução da identidade.
+
+*Integração e Crescimento*: O que emerge depois — não o retorno ao que você era antes, mas uma versão mais consciente, mais fundamentada, mais alinhada consigo mesma.
+
+**O Papel do Corpo**
+
+A cura não acontece apenas na cabeça. O corpo guarda a memória do trauma — na tensão muscular crônica, nos padrões de respiração, nas reações automáticas.
+
+Práticas somáticas — que trabalham o corpo diretamente — têm mostrado resultados significativos no tratamento de trauma: yoga, dança, corrida, EMDR, Somatic Experiencing. Não é necessário fazer tudo — mas incluir o corpo no processo de cura faz diferença.
+
+**Terapia Como Recurso**
+
+O apoio de um profissional qualificado — especialmente um que trabalhe com trauma e relacionamentos abusivos — pode acelerar e aprofundar o processo de cura. Se você tem acesso a esse recurso, vale considerar.
+
+Se não tem acesso no momento, não está sozinha. Há muito que pode ser feito através de processos autoguiados, grupos de apoio, literatura especializada e conexões com outras mulheres que passaram pelo mesmo.
+
+**O Paradoxo da Cura**
+
+Um dos aspectos mais transformadores do processo de cura é perceber que ele não apenas te liberta de algo — ele te revela algo. Revela uma capacidade de resiliência que você não sabia que tinha. Uma profundidade emocional. Uma clareza sobre o que realmente importa.
+
+A dor que você atravessou não tem de definir você. Mas pode, se você quiser, forjá-la.`,
+  },
+  {
+    chapter: 6,
+    title: 'Limites: A Arte de Se Proteger com Amor',
+    content: `Limites são, talvez, a habilidade mais fundamental para relacionamentos saudáveis — e, ao mesmo tempo, uma das mais difíceis de aprender para quem cresceu ou viveu em ambientes que não os respeitavam.
+
+**O Que São Limites, De Verdade**
+
+Um limite não é uma parede. Não é uma punição. Não é uma forma de controlar o outro.
+
+Um limite é uma declaração de como você precisa ser tratada para que uma relação seja possível. É uma expressão do seu respeito por si mesma. É o reconhecimento de que você tem necessidades, valores e sentimentos que merecem proteção.
+
+**Tipos de Limites**
+
+*Limites físicos*: Envolvem seu corpo, seu espaço físico e sua privacidade.
+
+*Limites emocionais*: Protegem sua vida emocional. Incluem o direito de sentir o que sente sem ser ridicularizada, de não absorver as emoções do outro como responsabilidade sua, de ter espaço para processar suas experiências.
+
+*Limites de tempo e energia*: O direito de dizer não a demandas que drenam você além da sua capacidade.
+
+*Limites digitais*: Especialmente relevantes hoje, incluem o direito de não estar sempre disponível, de ter privacidade nas comunicações.
+
+**Por Que É Tão Difícil**
+
+Para muitas mulheres, estabelecer limites evoca sentimentos de culpa intensa. "Estou sendo egoísta." "Vou magoar a pessoa." "Não é cristão/educado/gentil dizer não."
+
+Essas crenças frequentemente vêm de condicionamentos culturais e familiares profundos — a ideia de que cuidar de si mesma é colocar os outros em segundo lugar.
+
+Mas a realidade é o oposto: quando você não tem limites, quando diz sim quando quer dizer não, quando sacrifica suas necessidades constantemente, você se ressente, esgota e, eventualmente, explode ou colapsa. Isso não serve a ninguém.
+
+**Estabelecendo Limites na Prática**
+
+Começa com identificação: o que me faz sentir desrespeitada, exausta, ansiolosa? O que preciso para me sentir segura?
+
+Depois vem a comunicação: expressar o limite de forma clara, sem excessiva justificativa, sem agressividade. "Não posso atender ligações depois das 22h." "Não me sinto confortável com comentários sobre meu peso."
+
+E então vem a parte mais difícil: manter o limite diante da resistência. Porque pessoas que estão acostumadas a não ter limites estabelecidos frequentemente resistem quando eles aparecem.
+
+A resposta a essa resistência não precisa ser confronto — pode ser simplesmente consistência. Você não precisa convencer o outro de que seu limite é válido. Ele é válido porque você decidiu que é.`,
+  },
+  {
+    chapter: 7,
+    title: 'Construindo o Futuro que Você Merece',
+    content: `Chegar até aqui — seja no ebook, no desafio, no seu processo pessoal — é um ato de coragem. Porque ler sobre si mesma, reconhecer padrões dolorosos, escolher a cura em vez do conforto familiar do que é conhecido — isso exige bravura.
+
+**O Que Você Está Construindo**
+
+A partir de agora, você não está apenas "saindo" de algo. Está construindo algo. Uma forma de se relacionar consigo mesma baseada em autoconhecimento e autocompaixão. Uma maneira de se relacionar com os outros baseada em limites claros e autenticidade. Uma vida que reflete quem você realmente é.
+
+**Reconhecendo Relacionamentos Saudáveis**
+
+Depois de um relacionamento com características narcisistas, pode ser difícil confiar no próprio julgamento sobre novas relações. Alguns sinais de uma relação saudável:
+
+- Você se sente segura para ser quem você é, incluindo suas imperfeições
+- Conflitos são resolvidos com comunicação, não com punição ou silêncio
+- Você não precisa monitorar o humor do outro ou antecipar explosões
+- Seus limites são respeitados — mesmo quando isso é inconveniente para o outro
+- Você se sente, na maioria do tempo, melhor consigo mesma dentro dessa relação do que fora dela
+
+**O Papel do Tempo**
+
+A cura tem seu próprio ritmo. Há momentos em que parece que você está voltando ao início. Dias em que a saudade aparece sem avisar. Noites em que as dúvidas voltam.
+
+Isso não significa que você não evoluiu. Significa que a cura é humana e não-linear. Cada vez que você atravessa um desses momentos difíceis e continua de pé, você está construindo evidência — para você mesma — da sua capacidade de atravessar.
+
+**A Mulher que Você Está Se Tornando**
+
+Não existe versão de você que não passou pelo que passou. Essa experiência é parte de você agora — não como uma cicatriz feia, mas como sabedoria encarnada.
+
+Você sabe reconhecer os sinais. Você sabe o que não quer. Você sabe — ou está aprendendo — o que você precisa e merece.
+
+E você está aqui. Ainda. Crescendo.
+
+Isso não é pouco. Isso é tudo.
+
+Bienvenida ao começo da sua vida.`,
+  },
+]
