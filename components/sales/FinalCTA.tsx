@@ -81,7 +81,9 @@ export function FinalCTA() {
 
         <div className="flex flex-col items-center gap-4">
           <a
-            href="#oferta"
+            href="https://go.perfectpay.com.br/PPU38CQD1EK"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 font-bold rounded-full px-10 py-5 text-xl bg-[var(--color-gold)] text-foreground hover:brightness-105 transition-all transform hover:scale-[1.03] active:scale-[0.98] shadow-xl btn-pulse"
           >
             <span>Sim, quero me libertar em 21 dias</span>
@@ -91,7 +93,7 @@ export function FinalCTA() {
           </a>
           <p className="text-white/60 text-sm">
             De <span className="line-through">R$197</span> por apenas{' '}
-            <span className="text-[var(--color-gold)] font-semibold">R$44</span>
+            <span className="text-[var(--color-gold)] font-semibold">R$19,90</span>
             {' '}· Vagas limitadas · Garantia de 7 dias
           </p>
         </div>

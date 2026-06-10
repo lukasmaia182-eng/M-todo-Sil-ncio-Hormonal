@@ -105,7 +105,7 @@ export function OfferSection() {
               {[
                 { label: '1 sessão de terapia', price: 'R$150–300', sub: 'sem garantia' },
                 { label: 'Coaching individual', price: 'R$500+', sub: 'por mês' },
-                { label: 'Este programa completo', price: 'R$44', sub: '21 dias + 4 bônus', highlight: true },
+                { label: 'Este programa completo', price: 'R$19,90', sub: '21 dias + 4 bônus', highlight: true },
               ].map((item) => (
                 <div
                   key={item.label}
@@ -152,7 +152,7 @@ export function OfferSection() {
               Valor total de mais de <span className="line-through">R$408</span>
             </p>
             <div className="font-heading text-5xl sm:text-6xl font-bold text-[var(--color-brand)] mb-1">
-              R$ 44
+              R$ 19,90
             </div>
             <p className="text-muted-foreground text-sm mb-6">pagamento único · acesso imediato</p>
 

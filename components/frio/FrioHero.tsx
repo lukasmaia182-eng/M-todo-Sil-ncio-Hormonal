@@ -66,10 +66,12 @@ export function FrioHero() {
         {/* CTA principal — preço visível logo aqui */}
         <div className="flex flex-col items-center gap-3">
           <a
-            href="#oferta-frio"
+            href="https://go.perfectpay.com.br/PPU38CQD1EK"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full max-w-sm inline-flex items-center justify-center gap-2 bg-[var(--color-brand)] text-white font-bold rounded-full px-8 py-4 text-lg hover:bg-[oklch(0.52_0.22_350)] transition-all shadow-lg shadow-[var(--color-brand)]/30 btn-pulse"
           >
-            Quero me libertar — R$44
+            Quero me libertar — R$19,90
           </a>
           <p className="text-foreground/50 text-xs text-center">
             <span className="line-through text-foreground/30 mr-1">R$197</span>
