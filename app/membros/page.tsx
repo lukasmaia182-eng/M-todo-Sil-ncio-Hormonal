@@ -38,7 +38,7 @@ export default function MembrosPage() {
       </div>
 
       {/* Barra de progresso */}
-      <ProgressBar completed={completed.length} total={21} />
+      <ProgressBar completed={Math.min(completed.length, 21)} total={21} />
 
       {/* Tabs: Desafio / Ebook */}
       <div className="flex gap-2 bg-white p-1.5 rounded-2xl border border-[var(--color-border)] shadow-sm">
