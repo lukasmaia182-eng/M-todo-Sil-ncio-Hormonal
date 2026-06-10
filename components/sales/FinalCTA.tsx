@@ -72,12 +72,30 @@ export function FinalCTA() {
           <strong className="font-semibold">reconheceu a própria história</strong>{' '}
           nessas palavras.
         </p>
-        <p className="font-heading text-xl sm:text-2xl text-[var(--color-gold)] font-semibold italic mb-3">
+        <p className="font-heading text-xl sm:text-2xl text-[var(--color-gold)] font-semibold italic mb-5">
           Essa parte está certa. Honra ela.
         </p>
-        <p className="text-white/75 text-base mb-3 max-w-lg mx-auto">
-          Amanhã você vai acordar exatamente onde acordou hoje — a menos que algo mude hoje.
-        </p>
+
+        {/* Custo de inacao — bloco novo */}
+        <div className="bg-white/10 border border-white/20 rounded-2xl p-5 mb-8 max-w-lg mx-auto text-left">
+          <p className="text-white/90 text-sm font-semibold mb-3 uppercase tracking-wider">O custo de não entrar</p>
+          <ul className="space-y-2">
+            {[
+              'Amanhã você acorda exatamente onde acordou hoje.',
+              'A cada semana sem resolver, o vínculo se consolida mais.',
+              'Cada dia assim é energia vital consumida por ele — sem você perceber.',
+              'Daqui a 21 dias você pode ser diferente, ou pode estar no mesmo lugar.',
+            ].map((item) => (
+              <li key={item} className="flex items-start gap-2.5 text-white/75 text-sm">
+                <svg className="w-4 h-4 text-[var(--color-gold)] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <p className="text-white/65 text-base mb-10 max-w-lg mx-auto">
           Mais de 3.600 mulheres tomaram essa decisão. Todas hesitaram. Nenhuma se arrependeu.
         </p>
@@ -97,7 +115,7 @@ export function FinalCTA() {
           <p className="text-white/60 text-sm">
             De <span className="line-through">R$197</span> por apenas{' '}
             <span className="text-[var(--color-gold)] font-semibold">R$19,90</span>
-            {' '}· Acesso imediato · Garantia de 7 dias
+            {' '}· Acesso imediato · Garantia incondicional de 7 dias
           </p>
         </div>
 
@@ -106,7 +124,7 @@ export function FinalCTA() {
           <p className="text-white/65 text-sm sm:text-base italic leading-relaxed max-w-lg mx-auto">
             &ldquo;O vínculo que te prendeu a ele está, neste exato momento, tentando te convencer de que não é a hora certa. Que você pode esperar. Que talvez amanhã. Esse pensamento não é seu — é o vínculo se defendendo. Não deixe ele ganhar mais esse dia.&rdquo;
           </p>
-          <p className="text-white/30 text-xs mt-3">— Projeto Renascer Emocional</p>
+          <p className="text-white/30 text-xs mt-3">— Cris Andrade, Projeto Renascer Emocional</p>
           <p className="text-white/40 text-xs mt-4 max-w-sm mx-auto">
             O único risco real é não entrar — e daqui a 21 dias estar exatamente onde você está agora.
           </p>

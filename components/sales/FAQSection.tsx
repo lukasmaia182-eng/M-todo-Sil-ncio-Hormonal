@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'E se eu não tiver muito tempo no dia a dia?',
-    a: 'O programa foi desenhado para caber na vida real. As aulas são gravadas e curtas — você pode assistir no horário que for melhor para você. Não há compromisso com horários fixos, encontros ao vivo ou prazo de conclusão. O acesso é permanente: você faz no seu ritmo, sem pressão.',
+    a: 'O programa foi desenhado para caber na vida real. As aulas são gravadas e curtas — você pode assistir no horário que for melhor para você, seja de manhã cedo, no almoço ou antes de dormir. Não há compromisso com horários fixos. O acesso é permanente: você faz no seu ritmo, sem pressão, sem prazo.',
   },
   {
     q: 'E se não funcionar para mim especificamente?',
@@ -32,8 +32,8 @@ const faqs = [
     a: 'Não. O desafio foi projetado para funcionar independentemente do seu status atual. Seja você que terminou recentemente, que ainda tem contato por necessidade, ou que saiu há anos — o processo trabalha no vínculo interno, não nas circunstâncias externas.',
   },
   {
-    q: 'Em qual formato acontece o programa?',
-    a: 'O programa é 100% online e gravado. São aulas em vídeo que você acessa imediatamente após a confirmação do pagamento — pelo celular ou computador, no seu próprio ritmo, sem horário fixo. Você tem acesso permanente ao conteúdo: pode assistir quando quiser, pausar, rever quantas vezes precisar. Não há encontros ao vivo obrigatórios.',
+    q: 'Em qual formato acontece o programa? O que exatamente vou receber?',
+    a: 'O programa é 100% online e gravado. Sao aulas em vídeo que você acessa imediatamente após a confirmação do pagamento — pelo celular ou computador. Cada aula é curta e objetiva, focada no que você precisa fazer naquele dia. Você tem acesso permanente ao conteúdo: assiste quando quiser, pausa, revê quantas vezes precisar. Não há encontros ao vivo, não há horário fixo, não há data de expiração do acesso.',
   },
 ]
 

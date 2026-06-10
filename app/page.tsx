@@ -3,8 +3,8 @@ import { HeroSection } from '@/components/sales/HeroSection'
 import { PainSection } from '@/components/sales/PainSection'
 import { ScienceSection } from '@/components/sales/ScienceSection'
 import { AuthoritySection } from '@/components/sales/AuthoritySection'
+import { StorySection } from '@/components/sales/StorySection'
 import { ScheduleSection } from '@/components/sales/ScheduleSection'
-import { FormatSection } from '@/components/sales/FormatSection'
 import { TestimonialsSection } from '@/components/sales/TestimonialsSection'
 import { OfferSection } from '@/components/sales/OfferSection'
 import { GuaranteeSection } from '@/components/sales/GuaranteeSection'
@@ -19,8 +19,8 @@ export default function Home() {
       <HeroSection />
       <PainSection />
       <ScienceSection />
+      <StorySection />
       <ScheduleSection />
-      <FormatSection />
       <AuthoritySection />
       <TestimonialsSection />
       <OfferSection />
