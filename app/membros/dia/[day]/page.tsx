@@ -1,6 +1,6 @@
 'use client'
 
-import { getProgress, completeDay } from '@/lib/progress'
+import { getProgress, completeDay, getAnswer, saveAnswer } from '@/lib/progress'
 import { desafioDias } from '@/lib/desafio-data'
 import Link from 'next/link'
 import { useParams, useRouter } from 'next/navigation'
@@ -16,11 +16,14 @@ export default function DiaPage() {
   const [completed, setCompleted] = useState<number[]>([])
   const [justDone, setJustDone] = useState(false)
   const [mounted, setMounted] = useState(false)
+  const [answer, setAnswer] = useState('')
+  const [saved, setSaved] = useState(false)
 
   useEffect(() => {
     setMounted(true)
     setCompleted(getProgress())
-  }, [])
+    setAnswer(getAnswer(dayNum))
+  }, [dayNum])
 
   if (!dia) {
     return (
@@ -36,6 +39,12 @@ export default function DiaPage() {
   const isDone = completed.includes(dayNum)
   const prevDay = dayNum > 1 ? dayNum - 1 : null
   const nextDay = dayNum < 21 ? dayNum + 1 : null
+
+  function handleSaveAnswer() {
+    saveAnswer(dayNum, answer)
+    setSaved(true)
+    setTimeout(() => setSaved(false), 2500)
+  }
 
   function handleComplete() {
     const updated = completeDay(dayNum)
@@ -137,6 +146,56 @@ export default function DiaPage() {
           <h2 className="font-heading text-lg font-bold text-[var(--color-dark)]">Exercício prático</h2>
         </div>
         <p className="text-sm text-[var(--color-dark)] leading-relaxed">{dia.exercise}</p>
+      </div>
+
+      {/* Campo de resposta do exercício */}
+      <div className="bg-white rounded-2xl p-5 border border-[var(--color-border)] shadow-sm flex flex-col gap-3">
+        <div className="flex items-center gap-2 mb-1">
+          <div className="w-8 h-8 rounded-full bg-[var(--color-brand)]/10 flex items-center justify-center flex-shrink-0">
+            <svg className="w-4 h-4 text-[var(--color-brand)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+            </svg>
+          </div>
+          <div>
+            <h2 className="font-heading text-lg font-bold text-[var(--color-dark)]">Minha resposta</h2>
+            <p className="text-xs text-[var(--color-muted-foreground)]">Escreva aqui sua resposta ao exercício do dia — ela fica salva só para você.</p>
+          </div>
+        </div>
+
+        <textarea
+          value={answer}
+          onChange={(e) => setAnswer(e.target.value)}
+          placeholder="Escreva sua resposta aqui... Seja honesta consigo mesma."
+          rows={6}
+          className="w-full resize-none rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] p-4 text-sm text-[var(--color-dark)] placeholder:text-[var(--color-muted-foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brand)]/30 focus:border-[var(--color-brand)]/40 leading-relaxed transition-all"
+        />
+
+        <div className="flex items-center justify-between">
+          <span className="text-xs text-[var(--color-muted-foreground)]">
+            {answer.length > 0 ? `${answer.length} caracteres` : 'Ainda não respondida'}
+          </span>
+          <button
+            onClick={handleSaveAnswer}
+            disabled={answer.length === 0}
+            className="flex items-center gap-2 rounded-xl bg-[var(--color-brand)] text-white font-semibold text-sm px-5 py-2.5 hover:bg-[oklch(0.52_0.22_350)] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+          >
+            {saved ? (
+              <>
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Salvo!
+              </>
+            ) : (
+              <>
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                </svg>
+                Salvar resposta
+              </>
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Reflexões */}
