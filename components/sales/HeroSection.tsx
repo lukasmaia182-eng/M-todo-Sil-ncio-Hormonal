@@ -16,22 +16,22 @@ export function HeroSection() {
               </span>
             </div>
 
-            {/* Headline principal — direta, emocional, impossível de ignorar */}
+            {/* Headline principal */}
             <h1 className="font-heading text-foreground text-balance mb-5">
               <span className="block text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
-                Você terminou com ele.
+                Você já sabe que ele era tóxico.
               </span>
               <span className="block text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight text-[var(--color-brand)]">
-                Mas ele ainda mora dentro de você.
+                Então por que não consegue parar de pensar nele?
               </span>
             </h1>
 
-            {/* Subheadline — mecanismo + tempo + resultado */}
+            {/* Subheadline — mecanismo + revelacao */}
             <p className="text-foreground/75 text-lg sm:text-xl max-w-xl leading-relaxed mb-3">
-              Em <strong className="text-foreground">21 dias</strong>, você vai entender por que não consegue esquecer — e usar um método estruturado para cortar esse vínculo de uma vez por todas.
+              A resposta está no seu sistema nervoso — não na sua força de vontade. Em <strong className="text-foreground">21 dias</strong>, um método estruturado vai onde o vínculo realmente vive e corta isso de uma vez por todas.
             </p>
             <p className="text-foreground/60 text-base max-w-xl leading-relaxed mb-8">
-              Sem força de vontade. Sem anos de terapia. Com um processo que vai ao nível onde o trauma realmente vive: <strong className="text-foreground/70">o sistema nervoso.</strong>
+              Sem precisar reviver o trauma. Sem anos de terapia. Com um processo criado especificamente para <strong className="text-foreground/70">dependência neurológica</strong> — que é o que você tem.
             </p>
 
             {/* Mini proof */}
@@ -59,7 +59,7 @@ export function HeroSection() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[var(--color-brand)] text-white font-bold rounded-full px-8 py-4 text-lg hover:bg-[oklch(0.52_0.22_350)] transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-[var(--color-brand)]/30 btn-pulse"
               >
-                Quero me libertar agora
+                Sim — quero entender o que aconteceu comigo
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>

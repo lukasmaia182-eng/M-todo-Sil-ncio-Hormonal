@@ -68,14 +68,17 @@ export function FinalCTA() {
 
         {/* Mensagem principal */}
         <p className="font-heading text-2xl sm:text-3xl md:text-4xl text-white font-light leading-relaxed mb-4 text-balance">
-          Você chegou até aqui porque uma parte de você já sabe:{' '}
-          <strong className="font-semibold">isso precisa mudar.</strong>
+          Você leu até aqui porque uma parte de você{' '}
+          <strong className="font-semibold">reconheceu a própria história</strong>{' '}
+          nessas palavras.
         </p>
-        <p className="font-heading text-xl sm:text-2xl text-[var(--color-gold)] font-semibold italic mb-6">
-          Honra essa parte. Ela está certa.
+        <p className="font-heading text-xl sm:text-2xl text-[var(--color-gold)] font-semibold italic mb-3">
+          Essa parte está certa. Honra ela.
         </p>
-
-        <p className="text-white/75 text-base mb-10 max-w-lg mx-auto">
+        <p className="text-white/75 text-base mb-3 max-w-lg mx-auto">
+          Amanhã você vai acordar exatamente onde acordou hoje — a menos que algo mude hoje.
+        </p>
+        <p className="text-white/65 text-base mb-10 max-w-lg mx-auto">
           Mais de 3.600 mulheres tomaram essa decisão. Todas hesitaram. Nenhuma se arrependeu.
         </p>
 
@@ -86,7 +89,7 @@ export function FinalCTA() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 font-bold rounded-full px-10 py-5 text-xl bg-[var(--color-gold)] text-foreground hover:brightness-105 transition-all transform hover:scale-[1.03] active:scale-[0.98] shadow-xl btn-pulse"
           >
-            <span>Sim, quero me libertar em 21 dias</span>
+            <span>Sim, quero começar o Dia 1 agora</span>
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
@@ -94,7 +97,7 @@ export function FinalCTA() {
           <p className="text-white/60 text-sm">
             De <span className="line-through">R$197</span> por apenas{' '}
             <span className="text-[var(--color-gold)] font-semibold">R$19,90</span>
-            {' '}· Vagas limitadas · Garantia de 7 dias
+            {' '}· Acesso imediato · Garantia de 7 dias
           </p>
         </div>
 
@@ -104,6 +107,9 @@ export function FinalCTA() {
             &ldquo;O vínculo que te prendeu a ele está, neste exato momento, tentando te convencer de que não é a hora certa. Que você pode esperar. Que talvez amanhã. Esse pensamento não é seu — é o vínculo se defendendo. Não deixe ele ganhar mais esse dia.&rdquo;
           </p>
           <p className="text-white/30 text-xs mt-3">— Projeto Renascer Emocional</p>
+          <p className="text-white/40 text-xs mt-4 max-w-sm mx-auto">
+            O único risco real é não entrar — e daqui a 21 dias estar exatamente onde você está agora.
+          </p>
         </div>
       </div>
     </section>

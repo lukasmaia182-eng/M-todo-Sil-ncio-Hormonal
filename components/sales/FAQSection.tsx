@@ -16,8 +16,8 @@ const faqs = [
     a: 'O vínculo traumático não tem prazo de validade. Mulheres que fizeram o desafio anos depois do término relatam os mesmos resultados — porque o vínculo não enfraquece com o tempo. Ele enfraquece com o processo certo.',
   },
   {
-    q: 'E se eu não tiver tempo para acompanhar ao vivo?',
-    a: 'Os encontros são gravados e ficam disponíveis para você assistir no seu ritmo. Você não perde nada por não conseguir ao vivo. O importante é que você tenha acesso ao método — quando e como for melhor para você.',
+    q: 'E se eu não tiver muito tempo no dia a dia?',
+    a: 'O programa foi desenhado para caber na vida real. As aulas são gravadas e curtas — você pode assistir no horário que for melhor para você. Não há compromisso com horários fixos, encontros ao vivo ou prazo de conclusão. O acesso é permanente: você faz no seu ritmo, sem pressão.',
   },
   {
     q: 'E se não funcionar para mim especificamente?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: 'Em qual formato acontece o programa?',
-    a: 'O programa acontece em aulas online gravadas com acompanhamento ao vivo, dividido em 3 semanas de 7 dias cada. Você acessa no seu ritmo e mantém acesso ao conteúdo após o término. Os encontros ao vivo são gravados — você não perde nada.',
+    a: 'O programa é 100% online e gravado. São aulas em vídeo que você acessa imediatamente após a confirmação do pagamento — pelo celular ou computador, no seu próprio ritmo, sem horário fixo. Você tem acesso permanente ao conteúdo: pode assistir quando quiser, pausar, rever quantas vezes precisar. Não há encontros ao vivo obrigatórios.',
   },
 ]
 

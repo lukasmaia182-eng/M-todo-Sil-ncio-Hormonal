@@ -161,8 +161,23 @@ export function OfferSection() {
               Acesso liberado assim que o pagamento for confirmado
             </p>
             <p className="text-muted-foreground text-xs mt-1">
-              Vagas limitadas nesta turma · Bônus encerram junto com as vagas
+              Acesso imediato ao conteúdo gravado · Assista no seu ritmo, pelo celular ou computador · Sem data de expiração
             </p>
+
+            {/* Justificativa de preco */}
+            <div className="mt-6 bg-[var(--color-brand-muted)]/60 border border-[var(--color-brand)]/20 rounded-2xl p-5 text-left">
+              <p className="text-foreground font-semibold text-sm mb-2 flex items-center gap-2">
+                <svg className="w-4 h-4 text-[var(--color-brand)] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Por que isso custa R$19,90?
+              </p>
+              <p className="text-foreground/75 text-sm leading-relaxed">
+                Uma sessão de terapia custa R$150–300 e não foi criada para trauma narcisista. Um coaching individual custa R$500 por mês. Poderíamos cobrar R$297 — e esse programa valeria cada centavo.{' '}
+                <strong className="text-foreground">Mas preferimos que 10.000 mulheres se libertem a que 200 paguem caro.</strong>{' '}
+                O preço baixo não é sinal de valor baixo. É uma escolha deliberada de impacto.
+              </p>
+            </div>
 
             <div className="flex flex-wrap justify-center gap-4 mt-5 text-muted-foreground text-xs">
               {['Pix', 'Cartão de crédito', 'Boleto', 'Pagamento 100% seguro'].map((m) => (

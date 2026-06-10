@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 
 const DEADLINE_KEY = 'renascer_deadline'
-const DURATION_MS = 4 * 60 * 60 * 1000 // 4 horas
+const DURATION_MS = 24 * 60 * 60 * 1000 // 24 horas
 
 function getDeadline(): number {
   if (typeof window === 'undefined') return Date.now() + DURATION_MS
@@ -18,7 +18,7 @@ function getDeadline(): number {
 }
 
 export function AnnouncementBar() {
-  const [timeLeft, setTimeLeft] = useState({ hours: 4, minutes: 0, seconds: 0 })
+  const [timeLeft, setTimeLeft] = useState({ hours: 24, minutes: 0, seconds: 0 })
   const [expired, setExpired] = useState(false)
 
   useEffect(() => {
@@ -53,13 +53,12 @@ export function AnnouncementBar() {
 
   return (
     <div className="bg-[var(--color-brand)] text-white py-2.5 px-4 text-center text-sm font-medium">
-      <span className="opacity-90">Oferta do programa de 21 dias encerra em</span>{' '}
+      <span className="opacity-90">Oferta de lançamento encerra em</span>{' '}
       <span className="font-bold text-[var(--color-gold)] tabular-nums">
         {pad(timeLeft.hours)}:{pad(timeLeft.minutes)}:{pad(timeLeft.seconds)}
       </span>{' '}
-      <span className="opacity-90">·</span>{' '}
-      <span className="font-bold text-[var(--color-gold)]">Vagas limitadas</span>{' '}
-      <span className="opacity-90">nesta turma</span>
+      <span className="opacity-75 hidden sm:inline">·</span>{' '}
+      <span className="font-semibold hidden sm:inline">De R$197 por apenas R$19,90</span>
     </div>
   )
 }
