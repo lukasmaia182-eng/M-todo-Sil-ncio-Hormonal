@@ -6,6 +6,7 @@ import { useState } from 'react'
 
 interface DayListProps {
   completed: number[]
+  baseUrl?: string
 }
 
 const themeColors: Record<string, string> = {
@@ -44,7 +45,7 @@ function groupByWeek(days: typeof desafioDias) {
   return weeks
 }
 
-export function DayList({ completed }: DayListProps) {
+export function DayList({ completed, baseUrl = '/membros/dia' }: DayListProps) {
   const weeks = groupByWeek(desafioDias)
   const weekNumbers = Object.keys(weeks).map(Number).sort((a, b) => a - b)
 
@@ -111,7 +112,7 @@ export function DayList({ completed }: DayListProps) {
                   return (
                     <Link
                       key={dia.day}
-                      href={`/membros/dia/${dia.day}`}
+                      href={`${baseUrl}/${dia.day}`}
                       className={`group flex items-center gap-3 px-4 py-3 transition-all duration-200 ${
                         isDone ? 'bg-[var(--color-brand-muted)]/40' : isNext ? 'bg-white hover:bg-[var(--color-brand)]/5' : 'bg-white/60 hover:bg-white'
                       }`}
