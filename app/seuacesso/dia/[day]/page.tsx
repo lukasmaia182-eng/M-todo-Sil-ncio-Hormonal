@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
-export default function DiaPage() {
+export default function SeuAcessoDiaPage() {
   const params = useParams()
   const dayNum = Number(params.day)
   const dia = desafioDias.find((d) => d.day === dayNum)
@@ -30,7 +30,7 @@ export default function DiaPage() {
     return (
       <div className="flex flex-col items-center justify-center py-20 gap-4">
         <p className="text-[var(--color-muted-foreground)]">Dia não encontrado.</p>
-        <Link href="/membros" className="text-sm text-[var(--color-brand)] hover:underline">Voltar ao início</Link>
+        <Link href="/seuacesso" className="text-sm text-[var(--color-brand)] hover:underline">Voltar ao início</Link>
       </div>
     )
   }
@@ -73,7 +73,7 @@ export default function DiaPage() {
 
       {/* Voltar */}
       <div className="px-1 pb-4">
-        <Link href="/membros" className="flex items-center gap-1.5 text-sm text-[var(--color-muted-foreground)] hover:text-[var(--color-brand)] transition-colors w-fit">
+        <Link href="/seuacesso" className="flex items-center gap-1.5 text-sm text-[var(--color-muted-foreground)] hover:text-[var(--color-brand)] transition-colors w-fit">
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
           Painel
         </Link>
@@ -102,7 +102,7 @@ export default function DiaPage() {
       {/* Navegação rápida */}
       <div className="flex items-center gap-3 mb-6 px-1">
         {prevDay && (
-          <Link href={`/membros/dia/${prevDay}`} className="flex items-center gap-1 text-xs text-[var(--color-muted-foreground)] hover:text-[var(--color-brand)] transition-colors">
+          <Link href={`/seuacesso/dia/${prevDay}`} className="flex items-center gap-1 text-xs text-[var(--color-muted-foreground)] hover:text-[var(--color-brand)] transition-colors">
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
             Dia {prevDay}
           </Link>
@@ -111,7 +111,7 @@ export default function DiaPage() {
         <span className="text-xs font-semibold text-[var(--color-brand)] bg-[var(--color-brand)]/10 px-3 py-1 rounded-full">{Math.round((dayNum / 90) * 100)}% do desafio</span>
         <div className="flex-1 h-px bg-[var(--color-border)]" />
         {nextDay && (
-          <Link href={`/membros/dia/${nextDay}`} className="flex items-center gap-1 text-xs text-[var(--color-muted-foreground)] hover:text-[var(--color-brand)] transition-colors">
+          <Link href={`/seuacesso/dia/${nextDay}`} className="flex items-center gap-1 text-xs text-[var(--color-muted-foreground)] hover:text-[var(--color-brand)] transition-colors">
             Dia {nextDay}
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
           </Link>
@@ -218,7 +218,7 @@ export default function DiaPage() {
 
       {/* Banner motivacional */}
       <div className="relative w-full rounded-2xl overflow-hidden mb-5 shadow-md" style={{ aspectRatio: '16/5' }}>
-        <Image src="/images/membros/libertacao.png" alt="" fill className="object-cover" />
+        <Image src="/membros/tema-futuro.png" alt="" fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center px-6">
           <p className="text-white font-heading text-base font-semibold max-w-xs text-balance drop-shadow">Cada dia e uma escolha por voce mesma.</p>
         </div>
@@ -242,13 +242,13 @@ export default function DiaPage() {
       {/* Navegação entre dias */}
       <div className="flex gap-3 pb-4">
         {prevDay && (
-          <Link href={`/membros/dia/${prevDay}`} className="flex-1 flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-border)] bg-white text-sm font-semibold text-[var(--color-dark)] py-3 hover:border-[var(--color-brand)]/40 hover:shadow-sm transition-all">
+          <Link href={`/seuacesso/dia/${prevDay}`} className="flex-1 flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-border)] bg-white text-sm font-semibold text-[var(--color-dark)] py-3 hover:border-[var(--color-brand)]/40 hover:shadow-sm transition-all">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
             Dia {prevDay}
           </Link>
         )}
         {nextDay && (
-          <Link href={`/membros/dia/${nextDay}`} className="flex-1 flex items-center justify-center gap-2 rounded-2xl bg-[var(--color-brand)]/10 text-[var(--color-brand)] text-sm font-semibold py-3 hover:bg-[var(--color-brand)]/20 transition-all">
+          <Link href={`/seuacesso/dia/${nextDay}`} className="flex-1 flex items-center justify-center gap-2 rounded-2xl bg-[var(--color-brand)]/10 text-[var(--color-brand)] text-sm font-semibold py-3 hover:bg-[var(--color-brand)]/20 transition-all">
             Dia {nextDay}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
           </Link>
