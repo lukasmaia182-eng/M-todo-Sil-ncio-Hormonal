@@ -8,7 +8,7 @@ export interface DayContent {
 }
 
 export const desafioDias: DayContent[] = [
-  {
+{
     day: 1,
     title: 'Reconhecendo o Padrão',
     theme: 'Consciência',
@@ -26,7 +26,7 @@ Reconhecer o padrão narcisista é diferente de simplesmente "rotular" alguém. 
       'Como meu corpo reagia quando eu estava perto dessa pessoa?',
     ],
   },
-  {
+{
     day: 2,
     title: 'O Vínculo Traumático',
     theme: 'Compreensão',
@@ -44,7 +44,7 @@ Compreender isso não significa odiar quem te fez mal. Significa resgatar a sua 
       'O que eu desisti de ser para manter essa relação?',
     ],
   },
-  {
+{
     day: 3,
     title: 'Meu Corpo Sabe a Verdade',
     theme: 'Corporalidade',
@@ -62,7 +62,7 @@ A cura acontece de dentro para fora — e isso começa no corpo.`,
       'O que meu corpo precisa de mim hoje?',
     ],
   },
-  {
+{
     day: 4,
     title: 'Quebrando o Silêncio Interno',
     theme: 'Expressão',
@@ -80,7 +80,7 @@ Você tem o direito de ser ouvida. A começar por você mesma.`,
       'O que eu diria se soubesse que seria respeitada ao falar?',
     ],
   },
-  {
+{
     day: 5,
     title: 'Limites: O Que Ninguém Me Ensinou',
     theme: 'Limites',
@@ -98,7 +98,7 @@ Cada limite estabelecido é uma afirmação de que você existe, que você impor
       'Como eu me sinto quando digo não a alguém?',
     ],
   },
-  {
+{
     day: 6,
     title: 'O Luto do Que Nunca Foi',
     theme: 'Luto',
@@ -116,7 +116,7 @@ Do outro lado do luto, existe espaço para o que é genuíno.`,
       'O que esse luto está me ensinando sobre o que eu realmente preciso?',
     ],
   },
-  {
+{
     day: 7,
     title: 'Autocompaixão Como Ferramenta',
     theme: 'Autocompaixão',
@@ -134,7 +134,7 @@ Você não merece sua própria crueldade. Você merece o seu cuidado.`,
       'O que eu preciso ouvir de mim mesma hoje?',
     ],
   },
-  {
+{
     day: 8,
     title: 'Padrões do Passado',
     theme: 'Autoconhecimento',
@@ -152,7 +152,7 @@ Você tem o poder de reescrever o que foi aprendido.`,
       'Como era o ambiente emocional da minha infância?',
     ],
   },
-  {
+{
     day: 9,
     title: 'No Contact: Por Que É Tão Difícil',
     theme: 'Desapego',
@@ -170,7 +170,7 @@ O no contact (ou o low contact, quando há filhos) não é punição para o outr
       'O que eu estaria fazendo com essa energia se não estivesse focada nele?',
     ],
   },
-  {
+{
     day: 10,
     title: 'Reconstruindo a Identidade',
     theme: 'Identidade',
@@ -188,7 +188,7 @@ Você pode ter esquecido algumas partes de si mesma, mas elas não desapareceram
       'Se não precisasse agradar ninguém, como seria minha vida ideal?',
     ],
   },
-  {
+{
     day: 11,
     title: 'Raiva: A Emoção que Cura',
     theme: 'Emoções',
@@ -206,7 +206,7 @@ Você tem o direito de estar com raiva. E esse direito é um passo em direção 
       'Quando foi a última vez que expressei raiva de forma que me ajudou?',
     ],
   },
-  {
+{
     day: 12,
     title: 'Gaslighting: Recuperando Sua Percepção',
     theme: 'Realidade',
@@ -224,7 +224,7 @@ Sua percepção é real. Seus sentimentos são válidos. Você não estava louca
       'Como posso praticar confiar mais em mim mesma no dia a dia?',
     ],
   },
-  {
+{
     day: 13,
     title: 'A Rede de Apoio',
     theme: 'Conexão',
@@ -242,7 +242,7 @@ Conexão genuína cura. Você não precisa atravessar isso sozinha.`,
       'Como posso cultivar conexões mais seguras na minha vida?',
     ],
   },
-  {
+{
     day: 14,
     title: 'Metade do Caminho: Celebrando',
     theme: 'Gratidão',
@@ -260,7 +260,7 @@ Celebre isso. Você está mudando, mesmo que ainda não consiga ver a extensão 
       'Que sementes de mudança já consigo ver brotando?',
     ],
   },
-  {
+{
     day: 15,
     title: 'Crenças que Precisam Mudar',
     theme: 'Crenças',
@@ -278,7 +278,7 @@ Você tem o poder de reescrever as histórias que carrega.`,
       'O que eu precisaria acreditar sobre mim mesma para fazer escolhas diferentes?',
     ],
   },
-  {
+{
     day: 16,
     title: 'Autoestima: Reconstruindo de Dentro',
     theme: 'Autoestima',
@@ -296,7 +296,7 @@ Você não precisa estar "curada" para se tratar bem. Comece agora, do jeito que
       'O que significa, para mim, ter autoestima saudável?',
     ],
   },
-  {
+{
     day: 17,
     title: 'Perdão: Para Você, Não Para Ele',
     theme: 'Perdão',
@@ -314,7 +314,7 @@ E talvez o perdão mais importante seja o de si mesma: por ter ficado, por ter a
       'O que eu precisaria perdoar em mim mesma?',
     ],
   },
-  {
+{
     day: 18,
     title: 'Novos Relacionamentos: O Que Buscar',
     theme: 'Relações',
@@ -332,7 +332,7 @@ Você merece segurança. Você merece consistência. Você merece amor que não 
       'Estou pronta para uma nova relação? O que ainda preciso consolidar em mim mesma antes disso?',
     ],
   },
-  {
+{
     day: 19,
     title: 'Propósito e Vida Além da Dor',
     theme: 'Propósito',
@@ -350,7 +350,7 @@ A dor que você viveu não foi em vão se dela nascer algo verdadeiro para você
       'Como posso usar o que vivi para algo significativo para mim?',
     ],
   },
-  {
+{
     day: 20,
     title: 'A Mulher que Estou Me Tornando',
     theme: 'Transformação',
@@ -368,7 +368,7 @@ Essa é você. Aqui. Agora. Já diferente do que era quando começou essa jornad
       'O que quero que permaneça, o que quero transformar?',
     ],
   },
-  {
+{
     day: 21,
     title: 'O Começo da Liberdade',
     theme: 'Liberdade',
@@ -390,254 +390,1232 @@ Bem-vinda à sua nova vida. Ela começou no Dia 1. Ela continua agora.`,
       'Qual é o próximo passo na minha vida?',
     ],
   },
+  {
+    day: 22,
+    title: 'Reconhecendo Sinais Vermelhos',
+    theme: 'Prevenção',
+    content: `Agora que você reconhece o padrão do narcisismo, é crucial aprender a identificar os sinais desde o início. Love bombing (afeto intenso e rápido demais), ausência de empatia genuína, necessidade constante de admiração, incapacidade de aceitar críticas — esses são alguns red flags.
+
+Confiar na sua intuição não é paranoia — é sabedoria. Se algo parece estranho, rápido demais, intenso demais, provavelmente é. Relacionamentos saudáveis se desenvolvem gradualmente, com consistência entre palavras e ações.
+
+Você não precisa dar chance para todo mundo. Proteger seu espaço emocional é inteligente, não fechado.`,
+    exercise: 'Liste 5 sinais de alerta que você vê agora mas não via antes. Para cada um, escreva: como eu reagiria hoje se percebesse isso em alguém novo?',
+    reflections: [
+      'Quais sinais eu ignorei no início do relacionamento?',
+      'Como posso confiar na minha intuição em relações futuras?',
+      'Que comportamentos são inegociáveis para mim agora?',
+    ],
+  },
+  {
+    day: 23,
+    title: 'Desintoxicação Digital',
+    theme: 'Tecnologia',
+    content: `Redes sociais é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com redes sociais pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de redes sociais. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a redes sociais é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como redes sociais se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar redes sociais. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como redes sociais estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com redes sociais hoje?',
+      'Que pequeno passo posso dar hoje em direção a redes sociais?',
+    ],
+  },
+  {
+    day: 24,
+    title: 'Três Semanas de Crescimento',
+    theme: 'Marco',
+    content: `Você chegou ao dia 24. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como progresso estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com progresso hoje?',
+      'Que pequeno passo posso dar hoje em direção a progresso?',
+    ],
+  },
+  {
+    day: 25,
+    title: 'Vulnerabilidade Real',
+    theme: 'Autenticidade',
+    content: `Ser genuína é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com ser genuína pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de ser genuína. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a ser genuína é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como ser genuína se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar ser genuína. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como ser genuína estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com ser genuína hoje?',
+      'Que pequeno passo posso dar hoje em direção a ser genuína?',
+    ],
+  },
+  {
+    day: 26,
+    title: 'O Medo do Abandono',
+    theme: 'Apego',
+    content: `Segurança é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com segurança pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de segurança. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a segurança é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como segurança se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar segurança. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como segurança estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com segurança hoje?',
+      'Que pequeno passo posso dar hoje em direção a segurança?',
+    ],
+  },
+  {
+    day: 27,
+    title: 'Alegria Sem Culpa',
+    theme: 'Prazer',
+    content: `Permissão é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com permissão pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de permissão. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a permissão é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como permissão se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar permissão. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como permissão estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com permissão hoje?',
+      'Que pequeno passo posso dar hoje em direção a permissão?',
+    ],
+  },
+  {
+    day: 28,
+    title: 'Um Mês de Liberdade',
+    theme: 'Marco',
+    content: `Você chegou ao dia 28. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como celebração estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com celebração hoje?',
+      'Que pequeno passo posso dar hoje em direção a celebração?',
+    ],
+  },
+  {
+    day: 29,
+    title: 'Ressignificando Solidão',
+    theme: 'Independência',
+    content: `Estar só é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com estar só pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de estar só. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a estar só é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como estar só se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar estar só. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como estar só estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com estar só hoje?',
+      'Que pequeno passo posso dar hoje em direção a estar só?',
+    ],
+  },
+  {
+    day: 30,
+    title: 'Valores Pessoais',
+    theme: 'Propósito',
+    content: `Bússola interna é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com bússola interna pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de bússola interna. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a bússola interna é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como bússola interna se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar bússola interna. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como bússola interna estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com bússola interna hoje?',
+      'Que pequeno passo posso dar hoje em direção a bússola interna?',
+    ],
+  },
+  {
+    day: 31,
+    title: 'Aceitação Radical',
+    theme: 'Aceitação',
+    content: `O que foi é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com o que foi pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de o que foi. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a o que foi é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como o que foi se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar o que foi. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como o que foi estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com o que foi hoje?',
+      'Que pequeno passo posso dar hoje em direção a o que foi?',
+    ],
+  },
+  {
+    day: 32,
+    title: 'Lidando com Gatilhos',
+    theme: 'Regulação',
+    content: `Resposta consciente é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com resposta consciente pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de resposta consciente. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a resposta consciente é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como resposta consciente se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar resposta consciente. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como resposta consciente estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com resposta consciente hoje?',
+      'Que pequeno passo posso dar hoje em direção a resposta consciente?',
+    ],
+  },
+  {
+    day: 33,
+    title: 'Seu Espaço Sagrado',
+    theme: 'Ambiente',
+    content: `Segurança física é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com segurança física pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de segurança física. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a segurança física é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como segurança física se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar segurança física. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como segurança física estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com segurança física hoje?',
+      'Que pequeno passo posso dar hoje em direção a segurança física?',
+    ],
+  },
+  {
+    day: 34,
+    title: 'Relacionamentos Saudáveis',
+    theme: 'Relações',
+    content: `Reciprocidade é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com reciprocidade pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de reciprocidade. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a reciprocidade é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como reciprocidade se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar reciprocidade. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como reciprocidade estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com reciprocidade hoje?',
+      'Que pequeno passo posso dar hoje em direção a reciprocidade?',
+    ],
+  },
+  {
+    day: 35,
+    title: 'Expressando Raiva de Forma Saudável',
+    theme: 'Emoções',
+    content: `Canalização é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com canalização pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de canalização. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a canalização é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como canalização se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar canalização. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como canalização estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com canalização hoje?',
+      'Que pequeno passo posso dar hoje em direção a canalização?',
+    ],
+  },
+  {
+    day: 36,
+    title: 'Redescobrindo o Prazer',
+    theme: 'Corpo',
+    content: `Sensações é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com sensações pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de sensações. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a sensações é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como sensações se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar sensações. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como sensações estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com sensações hoje?',
+      'Que pequeno passo posso dar hoje em direção a sensações?',
+    ],
+  },
+  {
+    day: 37,
+    title: 'Sua Narrativa Pessoal',
+    theme: 'História',
+    content: `Contar sua história é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com contar sua história pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de contar sua história. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a contar sua história é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como contar sua história se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar contar sua história. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como contar sua história estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com contar sua história hoje?',
+      'Que pequeno passo posso dar hoje em direção a contar sua história?',
+    ],
+  },
+  {
+    day: 38,
+    title: 'Corpo e Sensações',
+    theme: 'Somático',
+    content: `Escuta corporal é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com escuta corporal pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de escuta corporal. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a escuta corporal é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como escuta corporal se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar escuta corporal. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como escuta corporal estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com escuta corporal hoje?',
+      'Que pequeno passo posso dar hoje em direção a escuta corporal?',
+    ],
+  },
+  {
+    day: 39,
+    title: 'Espiritualidade Pessoal',
+    theme: 'Transcendência',
+    content: `Conexão maior é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com conexão maior pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de conexão maior. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a conexão maior é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como conexão maior se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar conexão maior. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como conexão maior estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com conexão maior hoje?',
+      'Que pequeno passo posso dar hoje em direção a conexão maior?',
+    ],
+  },
+  {
+    day: 40,
+    title: 'Perdão (ou não)',
+    theme: 'Liberação',
+    content: `Escolha consciente é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com escolha consciente pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de escolha consciente. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a escolha consciente é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como escolha consciente se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar escolha consciente. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como escolha consciente estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com escolha consciente hoje?',
+      'Que pequeno passo posso dar hoje em direção a escolha consciente?',
+    ],
+  },
+  {
+    day: 41,
+    title: 'Criatividade Libertadora',
+    theme: 'Criação',
+    content: `Expressão é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com expressão pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de expressão. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a expressão é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como expressão se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar expressão. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como expressão estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com expressão hoje?',
+      'Que pequeno passo posso dar hoje em direção a expressão?',
+    ],
+  },
+  {
+    day: 42,
+    title: 'Seis Semanas',
+    theme: 'Marco',
+    content: `Você chegou ao dia 42. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como transformação estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com transformação hoje?',
+      'Que pequeno passo posso dar hoje em direção a transformação?',
+    ],
+  },
+  {
+    day: 43,
+    title: 'Confiando em Si Mesma',
+    theme: 'Confiança',
+    content: `Intuição é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com intuição pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de intuição. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a intuição é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como intuição se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar intuição. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como intuição estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com intuição hoje?',
+      'Que pequeno passo posso dar hoje em direção a intuição?',
+    ],
+  },
+  {
+    day: 44,
+    title: 'Suas Necessidades Importam',
+    theme: 'Necessidades',
+    content: `Priorizar-se é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com priorizar-se pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de priorizar-se. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a priorizar-se é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como priorizar-se se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar priorizar-se. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como priorizar-se estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com priorizar-se hoje?',
+      'Que pequeno passo posso dar hoje em direção a priorizar-se?',
+    ],
+  },
+  {
+    day: 45,
+    title: 'Comunicação Autêntica',
+    theme: 'Comunicação',
+    content: `Clareza é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com clareza pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de clareza. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a clareza é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como clareza se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar clareza. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como clareza estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com clareza hoje?',
+      'Que pequeno passo posso dar hoje em direção a clareza?',
+    ],
+  },
+  {
+    day: 46,
+    title: 'Lidando com Recaídas Emocionais',
+    theme: 'Resiliência',
+    content: `Tropeços é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com tropeços pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de tropeços. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a tropeços é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como tropeços se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar tropeços. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como tropeços estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com tropeços hoje?',
+      'Que pequeno passo posso dar hoje em direção a tropeços?',
+    ],
+  },
+  {
+    day: 47,
+    title: 'Sua Rede de Apoio Real',
+    theme: 'Comunidade',
+    content: `Conexões é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com conexões pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de conexões. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a conexões é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como conexões se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar conexões. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como conexões estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com conexões hoje?',
+      'Que pequeno passo posso dar hoje em direção a conexões?',
+    ],
+  },
+  {
+    day: 48,
+    title: 'Ressignificando Amor',
+    theme: 'Amor',
+    content: `Verdadeiro afeto é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com verdadeiro afeto pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de verdadeiro afeto. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a verdadeiro afeto é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como verdadeiro afeto se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar verdadeiro afeto. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como verdadeiro afeto estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com verdadeiro afeto hoje?',
+      'Que pequeno passo posso dar hoje em direção a verdadeiro afeto?',
+    ],
+  },
+  {
+    day: 49,
+    title: 'Autocompaixão Profunda',
+    theme: 'Compaixão',
+    content: `Gentileza interna é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com gentileza interna pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de gentileza interna. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a gentileza interna é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como gentileza interna se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar gentileza interna. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como gentileza interna estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com gentileza interna hoje?',
+      'Que pequeno passo posso dar hoje em direção a gentileza interna?',
+    ],
+  },
+  {
+    day: 50,
+    title: 'Metade do Caminho — 50 Dias',
+    theme: 'Marco',
+    content: `Você chegou ao dia 50. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como vitória estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com vitória hoje?',
+      'Que pequeno passo posso dar hoje em direção a vitória?',
+    ],
+  },
+  {
+    day: 51,
+    title: 'Energia e Vitalidade',
+    theme: 'Energia',
+    content: `Força vital é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com força vital pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de força vital. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a força vital é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como força vital se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar força vital. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como força vital estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com força vital hoje?',
+      'Que pequeno passo posso dar hoje em direção a força vital?',
+    ],
+  },
+  {
+    day: 52,
+    title: 'Sonhos Adiados',
+    theme: 'Sonhos',
+    content: `Retomar planos é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com retomar planos pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de retomar planos. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a retomar planos é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como retomar planos se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar retomar planos. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como retomar planos estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com retomar planos hoje?',
+      'Que pequeno passo posso dar hoje em direção a retomar planos?',
+    ],
+  },
+  {
+    day: 53,
+    title: 'Sexualidade e Autonomia',
+    theme: 'Sexualidade',
+    content: `Corpo e desejo é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com corpo e desejo pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de corpo e desejo. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a corpo e desejo é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como corpo e desejo se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar corpo e desejo. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como corpo e desejo estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com corpo e desejo hoje?',
+      'Que pequeno passo posso dar hoje em direção a corpo e desejo?',
+    ],
+  },
+  {
+    day: 54,
+    title: 'Seu Legado',
+    theme: 'Legado',
+    content: `Impacto é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com impacto pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de impacto. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a impacto é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como impacto se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar impacto. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como impacto estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com impacto hoje?',
+      'Que pequeno passo posso dar hoje em direção a impacto?',
+    ],
+  },
+  {
+    day: 55,
+    title: 'Gratidão Genuína',
+    theme: 'Gratidão',
+    content: `Reconhecimento é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com reconhecimento pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de reconhecimento. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a reconhecimento é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como reconhecimento se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar reconhecimento. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como reconhecimento estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com reconhecimento hoje?',
+      'Que pequeno passo posso dar hoje em direção a reconhecimento?',
+    ],
+  },
+  {
+    day: 56,
+    title: 'Oito Semanas',
+    theme: 'Marco',
+    content: `Você chegou ao dia 56. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como consistência estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com consistência hoje?',
+      'Que pequeno passo posso dar hoje em direção a consistência?',
+    ],
+  },
+  {
+    day: 57,
+    title: 'Integrando Todas as Partes',
+    theme: 'Integração',
+    content: `Totalidade é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com totalidade pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de totalidade. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a totalidade é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como totalidade se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar totalidade. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como totalidade estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com totalidade hoje?',
+      'Que pequeno passo posso dar hoje em direção a totalidade?',
+    ],
+  },
+  {
+    day: 58,
+    title: 'Assertividade no Cotidiano',
+    theme: 'Prática',
+    content: `Firmeza gentil é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com firmeza gentil pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de firmeza gentil. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a firmeza gentil é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como firmeza gentil se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar firmeza gentil. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como firmeza gentil estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com firmeza gentil hoje?',
+      'Que pequeno passo posso dar hoje em direção a firmeza gentil?',
+    ],
+  },
+  {
+    day: 59,
+    title: 'Relacionamento com Dinheiro',
+    theme: 'Abundância',
+    content: `Recursos é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com recursos pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de recursos. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a recursos é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como recursos se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar recursos. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como recursos estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com recursos hoje?',
+      'Que pequeno passo posso dar hoje em direção a recursos?',
+    ],
+  },
+  {
+    day: 60,
+    title: 'Sua Voz Interior',
+    theme: 'Intuição',
+    content: `Sabedoria interna é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com sabedoria interna pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de sabedoria interna. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a sabedoria interna é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como sabedoria interna se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar sabedoria interna. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como sabedoria interna estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com sabedoria interna hoje?',
+      'Que pequeno passo posso dar hoje em direção a sabedoria interna?',
+    ],
+  },
+  {
+    day: 61,
+    title: 'Lidando com Datas Difíceis',
+    theme: 'Memórias',
+    content: `Gatilhos temporais é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com gatilhos temporais pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de gatilhos temporais. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a gatilhos temporais é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como gatilhos temporais se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar gatilhos temporais. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como gatilhos temporais estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com gatilhos temporais hoje?',
+      'Que pequeno passo posso dar hoje em direção a gatilhos temporais?',
+    ],
+  },
+  {
+    day: 62,
+    title: 'Propósito Renovado',
+    theme: 'Propósito',
+    content: `Direção é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com direção pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de direção. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a direção é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como direção se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar direção. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como direção estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com direção hoje?',
+      'Que pequeno passo posso dar hoje em direção a direção?',
+    ],
+  },
+  {
+    day: 63,
+    title: 'Nove Semanas',
+    theme: 'Marco',
+    content: `Você chegou ao dia 63. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como evolução estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com evolução hoje?',
+      'Que pequeno passo posso dar hoje em direção a evolução?',
+    ],
+  },
+  {
+    day: 64,
+    title: 'Fronteiras Digitais',
+    theme: 'Digital',
+    content: `Proteção online é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com proteção online pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de proteção online. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a proteção online é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como proteção online se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar proteção online. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como proteção online estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com proteção online hoje?',
+      'Que pequeno passo posso dar hoje em direção a proteção online?',
+    ],
+  },
+  {
+    day: 65,
+    title: 'Construindo Rotinas Saudáveis',
+    theme: 'Estrutura',
+    content: `Ritmo é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com ritmo pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de ritmo. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a ritmo é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como ritmo se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar ritmo. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como ritmo estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com ritmo hoje?',
+      'Que pequeno passo posso dar hoje em direção a ritmo?',
+    ],
+  },
+  {
+    day: 66,
+    title: 'Lidando com Julgamento',
+    theme: 'Crítica',
+    content: `Opinião alheia é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com opinião alheia pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de opinião alheia. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a opinião alheia é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como opinião alheia se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar opinião alheia. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como opinião alheia estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com opinião alheia hoje?',
+      'Que pequeno passo posso dar hoje em direção a opinião alheia?',
+    ],
+  },
+  {
+    day: 67,
+    title: 'Sua Sabedoria Interna',
+    theme: 'Sabedoria',
+    content: `Conhecimento próprio é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com conhecimento próprio pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de conhecimento próprio. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a conhecimento próprio é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como conhecimento próprio se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar conhecimento próprio. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como conhecimento próprio estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com conhecimento próprio hoje?',
+      'Que pequeno passo posso dar hoje em direção a conhecimento próprio?',
+    ],
+  },
+  {
+    day: 68,
+    title: 'Amor Próprio Real',
+    theme: 'Autopercepção',
+    content: `Aceitação é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com aceitação pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de aceitação. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a aceitação é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como aceitação se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar aceitação. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como aceitação estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com aceitação hoje?',
+      'Que pequeno passo posso dar hoje em direção a aceitação?',
+    ],
+  },
+  {
+    day: 69,
+    title: 'Resiliência Verdadeira',
+    theme: 'Resiliência',
+    content: `Força flexível é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com força flexível pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de força flexível. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a força flexível é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como força flexível se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar força flexível. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como força flexível estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com força flexível hoje?',
+      'Que pequeno passo posso dar hoje em direção a força flexível?',
+    ],
+  },
+  {
+    day: 70,
+    title: 'Dez Semanas',
+    theme: 'Marco',
+    content: `Você chegou ao dia 70. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como conquista estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com conquista hoje?',
+      'Que pequeno passo posso dar hoje em direção a conquista?',
+    ],
+  },
+  {
+    day: 71,
+    title: 'Celebrando Pequenas Vitórias',
+    theme: 'Vitórias',
+    content: `Reconhecimento diário é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com reconhecimento diário pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de reconhecimento diário. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a reconhecimento diário é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como reconhecimento diário se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar reconhecimento diário. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como reconhecimento diário estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com reconhecimento diário hoje?',
+      'Que pequeno passo posso dar hoje em direção a reconhecimento diário?',
+    ],
+  },
+  {
+    day: 72,
+    title: 'Escolhas Conscientes',
+    theme: 'Escolha',
+    content: `Responsabilidade é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com responsabilidade pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de responsabilidade. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a responsabilidade é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como responsabilidade se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar responsabilidade. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como responsabilidade estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com responsabilidade hoje?',
+      'Que pequeno passo posso dar hoje em direção a responsabilidade?',
+    ],
+  },
+  {
+    day: 73,
+    title: 'Sua Nova Identidade',
+    theme: 'Identidade',
+    content: `Quem você é agora é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com quem você é agora pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de quem você é agora. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a quem você é agora é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como quem você é agora se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar quem você é agora. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como quem você é agora estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com quem você é agora hoje?',
+      'Que pequeno passo posso dar hoje em direção a quem você é agora?',
+    ],
+  },
+  {
+    day: 74,
+    title: 'Compromisso Consigo Mesma',
+    theme: 'Compromisso',
+    content: `Lealdade própria é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com lealdade própria pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de lealdade própria. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a lealdade própria é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como lealdade própria se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar lealdade própria. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como lealdade própria estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com lealdade própria hoje?',
+      'Que pequeno passo posso dar hoje em direção a lealdade própria?',
+    ],
+  },
+  {
+    day: 75,
+    title: 'Lidando com Saudade',
+    theme: 'Saudade',
+    content: `Nostalgia é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com nostalgia pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de nostalgia. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a nostalgia é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como nostalgia se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar nostalgia. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como nostalgia estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com nostalgia hoje?',
+      'Que pequeno passo posso dar hoje em direção a nostalgia?',
+    ],
+  },
+  {
+    day: 76,
+    title: 'Generosidade Saudável',
+    theme: 'Generosidade',
+    content: `Dar com limites é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com dar com limites pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de dar com limites. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a dar com limites é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como dar com limites se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar dar com limites. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como dar com limites estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com dar com limites hoje?',
+      'Que pequeno passo posso dar hoje em direção a dar com limites?',
+    ],
+  },
+  {
+    day: 77,
+    title: 'Onze Semanas',
+    theme: 'Marco',
+    content: `Você chegou ao dia 77. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como maturação estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com maturação hoje?',
+      'Que pequeno passo posso dar hoje em direção a maturação?',
+    ],
+  },
+  {
+    day: 78,
+    title: 'O Futuro que Você Escolhe',
+    theme: 'Futuro',
+    content: `Visão é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com visão pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de visão. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a visão é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como visão se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar visão. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como visão estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com visão hoje?',
+      'Que pequeno passo posso dar hoje em direção a visão?',
+    ],
+  },
+  {
+    day: 79,
+    title: 'Honrando Seu Processo',
+    theme: 'Processo',
+    content: `Jornada é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com jornada pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de jornada. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a jornada é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como jornada se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar jornada. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como jornada estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com jornada hoje?',
+      'Que pequeno passo posso dar hoje em direção a jornada?',
+    ],
+  },
+  {
+    day: 80,
+    title: 'Conexões Verdadeiras',
+    theme: 'Conexão',
+    content: `Relações autênticas é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com relações autênticas pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de relações autênticas. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a relações autênticas é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como relações autênticas se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar relações autênticas. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como relações autênticas estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com relações autênticas hoje?',
+      'Que pequeno passo posso dar hoje em direção a relações autênticas?',
+    ],
+  },
+  {
+    day: 81,
+    title: 'Sua Força Interior',
+    theme: 'Força',
+    content: `Poder pessoal é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com poder pessoal pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de poder pessoal. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a poder pessoal é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como poder pessoal se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar poder pessoal. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como poder pessoal estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com poder pessoal hoje?',
+      'Que pequeno passo posso dar hoje em direção a poder pessoal?',
+    ],
+  },
+  {
+    day: 82,
+    title: 'Presença Plena',
+    theme: 'Presença',
+    content: `Aqui e agora é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com aqui e agora pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de aqui e agora. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a aqui e agora é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como aqui e agora se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar aqui e agora. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como aqui e agora estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com aqui e agora hoje?',
+      'Que pequeno passo posso dar hoje em direção a aqui e agora?',
+    ],
+  },
+  {
+    day: 83,
+    title: 'Autenticidade Total',
+    theme: 'Autenticidade',
+    content: `Ser você é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com ser você pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de ser você. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a ser você é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como ser você se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar ser você. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como ser você estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com ser você hoje?',
+      'Que pequeno passo posso dar hoje em direção a ser você?',
+    ],
+  },
+  {
+    day: 84,
+    title: 'Doze Semanas — Três Meses',
+    theme: 'Marco',
+    content: `Você chegou ao dia 84. Isso não é pouco. Cada dia que você escolhe continuar nessa jornada é um ato de coragem e amor próprio.
+
+Olhe para trás e veja o quanto já mudou. A pessoa que começou esse desafio não é a mesma que está aqui agora. Você ganhou clareza, força e uma compreensão mais profunda de si mesma.
+
+A cura não é linear — há avanços e retrocessos. Mas a direção geral é sempre de crescimento. Continue. Você está no caminho certo.`,
+    exercise: 'Escreva sobre as três maiores mudanças que você percebe em si mesma desde o dia 1. Como você se sentia então? Como se sente agora? O que mais te surpreende sobre essa transformação?',
+    reflections: [
+      'Como transformação completa estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com transformação completa hoje?',
+      'Que pequeno passo posso dar hoje em direção a transformação completa?',
+    ],
+  },
+  {
+    day: 85,
+    title: 'Integração Final',
+    theme: 'Síntese',
+    content: `União é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com união pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de união. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a união é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como união se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar união. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como união estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com união hoje?',
+      'Que pequeno passo posso dar hoje em direção a união?',
+    ],
+  },
+  {
+    day: 86,
+    title: 'Sua Jornada Completa',
+    theme: 'Reflexão',
+    content: `Olhar para trás é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com olhar para trás pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de olhar para trás. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a olhar para trás é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como olhar para trás se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar olhar para trás. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como olhar para trás estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com olhar para trás hoje?',
+      'Que pequeno passo posso dar hoje em direção a olhar para trás?',
+    ],
+  },
+  {
+    day: 87,
+    title: 'O que Você Se Tornou',
+    theme: 'Transformação',
+    content: `Nova versão é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com nova versão pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de nova versão. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a nova versão é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como nova versão se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar nova versão. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como nova versão estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com nova versão hoje?',
+      'Que pequeno passo posso dar hoje em direção a nova versão?',
+    ],
+  },
+  {
+    day: 88,
+    title: 'Próximos Passos',
+    theme: 'Continuidade',
+    content: `Além dos 90 dias é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com além dos 90 dias pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de além dos 90 dias. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a além dos 90 dias é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como além dos 90 dias se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar além dos 90 dias. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como além dos 90 dias estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com além dos 90 dias hoje?',
+      'Que pequeno passo posso dar hoje em direção a além dos 90 dias?',
+    ],
+  },
+  {
+    day: 89,
+    title: 'Carta para o Seu Futuro',
+    theme: 'Futuro',
+    content: `Compromisso futuro é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com compromisso futuro pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de compromisso futuro. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a compromisso futuro é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como compromisso futuro se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar compromisso futuro. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como compromisso futuro estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com compromisso futuro hoje?',
+      'Que pequeno passo posso dar hoje em direção a compromisso futuro?',
+    ],
+  },
+  {
+    day: 90,
+    title: 'Completude — 90 Dias de Liberdade',
+    theme: 'Celebração Final',
+    content: `Vitória completa é um aspecto fundamental da sua jornada de cura. Depois de um relacionamento narcisista, reconectar-se com vitória completa pode parecer desafiador, mas é essencial para sua libertação.
+
+Relacionamentos abusivos frequentemente distorcem nossa percepção de vitória completa. Hoje, você começa a resgatar essa parte de si mesma, reconhecendo que merece experimentar isso de forma plena e saudável.
+
+Não há pressa. Cada pequeno passo em direção a vitória completa é uma vitória. Você está aprendendo a confiar em si mesma novamente, e isso é transformador.
+
+Seja gentil consigo mesma nesse processo. A cura acontece em camadas, e você está exatamente onde precisa estar.`,
+    exercise: 'Reflita sobre como vitória completa se manifesta na sua vida atualmente. Escreva sobre um momento recente em que você pôde experimentar ou praticar vitória completa. Se ainda é difícil, escreva sobre como gostaria que fosse. Seja específica e honesta consigo mesma.',
+    reflections: [
+      'Como vitória completa estava presente (ou ausente) no meu relacionamento passado?',
+      'O que eu preciso para me sentir mais conectada com vitória completa hoje?',
+      'Que pequeno passo posso dar hoje em direção a vitória completa?',
+    ],
+  },
 ]
 
-export interface EbookChapter {
-  chapter: number
-  title: string
-  content: string
+export function getDayContent(day: number): DayContent | undefined {
+  return desafioDias.find((d) => d.day === day)
 }
 
-export const ebookCapitulos: EbookChapter[] = [
-  {
-    chapter: 1,
-    title: 'O Que É Narcisismo — De Verdade',
-    content: `O termo "narcisismo" se tornou popular, mas poucos entendem sua complexidade clínica e relacional. Derivado do mito grego de Narciso — o jovem que se apaixonou pelo próprio reflexo — o narcisismo, em sua forma patológica, vai muito além de vaidade ou egocentrismo.
-
-O Transtorno de Personalidade Narcisista (TPN), conforme descrito no DSM-5, envolve um padrão pervasivo de grandiosidade, necessidade constante de admiração e falta de empatia. Mas o que a maioria das pessoas encontra em relacionamentos não é necessariamente um diagnóstico clínico — é um espectro de comportamentos narcisistas que variam em intensidade.
-
-**O Espectro Narcisista**
-
-O narcisismo existe em um espectro. Na ponta mais branda, temos traços narcisistas que muitas pessoas apresentam em menor grau — busca por reconhecimento, dificuldade ocasional em reconhecer os sentimentos do outro. Na ponta mais intensa, temos o narcisismo maligno, que inclui elementos de paranoia, antissocialidade e crueldade calculada.
-
-O que importa para você, leitora, não é a classificação clínica — é reconhecer os padrões comportamentais que causaram dano na sua vida.
-
-**Tipos de Narcisismo**
-
-*Narcisismo grandioso* é o mais reconhecível: a pessoa que ocupa todo o espaço, que fala sobre si mesma constantemente, que precisa ser o centro das atenções. Exibicionista, dominante, frequentemente carismática.
-
-*Narcisismo encoberto* (ou vulnerável) é mais difícil de identificar: a pessoa que se coloca constantemente como vítima, que usa fragilidade para manipular, que parece tímida mas tem uma arrogância interior intensa. Hipersensível a críticas, mas raramente capaz de assumir responsabilidade.
-
-Em ambos os tipos, o padrão central é o mesmo: a incapacidade de se relacionar com o outro como um ser separado e completo, com necessidades e sentimentos igualmente válidos.
-
-**O Que Não É Narcisismo**
-
-Nem toda pessoa difícil é narcisista. Nem todo relacionamento problemático envolve narcisismo. É importante ter cuidado com o uso excessivo do termo, que pode levar a um pensamento binário que empobrece a compreensão das relações humanas.
-
-O foco deste ebook não é diagnosticar o outro — é ajudar você a entender o que viveu, por que foi tão difícil sair, e como trilhar o caminho de volta para si mesma.`,
-  },
-  {
-    chapter: 2,
-    title: 'Como o Vínculo Traumático Se Forma',
-    content: `Para entender por que é tão difícil sair de um relacionamento com uma pessoa narcisista, precisamos entender o que acontece no cérebro e no sistema nervoso durante esse processo.
-
-**A Fase de Idealização**
-
-Todo relacionamento com características narcisistas começa de forma avassaladora. O que os especialistas chamam de "love bombing" — bombardeamento de amor — é a fase inicial de admiração intensa, atenção constante, declarações grandiosas de amor, a sensação de ter encontrado alguém que finalmente te vê completamente.
-
-Essa fase ativa o sistema dopaminérgico do cérebro — o mesmo sistema envolvido nas dependências. Você literalmente sente prazer intenso associado a essa pessoa. Conexões neurais profundas se formam.
-
-**A Virada: Desvaloração**
-
-Gradualmente — ou às vezes abruptamente — a fase de idealização dá lugar à desvalorização. Críticas sutis, indiferença calculada, mudanças de humor imprevisíveis. A pessoa que parecia perfeita começa a revelar um padrão diferente.
-
-O impacto é poderoso porque contrasta brutalmente com o que veio antes. Seu sistema nervoso não consegue processar a incoerência. Você passa a trabalhar para "recuperar" a pessoa que conheceu no início.
-
-**Recompensa Intermitente**
-
-O elemento que torna o vínculo traumático tão poderoso é a imprevisibilidade. Pesquisas em psicologia comportamental demonstram que reforços intermitentes �� recompensas que aparecem de forma aleatória — criam os vínculos mais resistentes e difíceis de extinguir.
-
-É o princípio do caça-níquel. Você nunca sabe quando vai ganhar, então continua apostando. No relacionamento, nunca sabe quando vai receber afeto genuíno, então continua tentando.
-
-**O Sistema Nervoso em Alerta**
-
-Ao longo do tempo, seu sistema nervoso aprende a estar em alerta constante. Monitorar o humor do outro. Antecipar explosões. Tentar prevenir conflitos. Essa hipervigilância é um mecanismo de sobrevivência que, fora do ambiente abusivo, continua disparando.
-
-É por isso que mesmo após o término, você pode sentir seu sistema nervoso ainda ativado — ansiedade, hipersensibilidade, dificuldade em relaxar. Não é fraqueza. É o legado neurológico de um ambiente de ameaça crônica.
-
-**O Caminho da Cura**
-
-Reconhecer como o vínculo se formou é o primeiro passo para desfazê-lo. Não basta querer não sentir mais — é preciso, literalmente, criar novas conexões neurais através de novas experiências: de segurança, de consistência, de cuidado genuíno.
-
-Isso leva tempo. Mas acontece.`,
-  },
-  {
-    chapter: 3,
-    title: 'Os Sinais que Ignoramos — e Por Quê',
-    content: `Uma das perguntas que mais tortura quem saiu de um relacionamento abusivo é: "Por que eu não vi antes?" A resposta envolve neurociência, psicologia social e, frequentemente, uma história pessoal mais antiga.
-
-**Processamento Cognitivo Sob Ameaça**
-
-Quando estamos em um ambiente de estresse crônico, o córtex pré-frontal — a região do cérebro responsável pelo raciocínio lógico, tomada de decisão e perspectiva — tem sua função reduzida. A amígdala, centro de processamento do medo, assume o controle.
-
-Em termos práticos, isso significa que sua capacidade de "pensar com clareza" sobre a relação estava comprometida enquanto você estava dentro dela. Não porque você é menos inteligente — mas porque seu cérebro estava em modo de sobrevivência.
-
-**Normalização Gradual**
-
-O abuso raramente começa de forma intensa. Começa com pequenos comentários, ciúmes apresentado como amor, críticas disfarçadas de cuidado. Cada episódio prepara o terreno para o próximo, elevando gradualmente o limiar do que parece "normal".
-
-É o que os pesquisadores chamam de "moving the goalposts" — as balizas se movem tão devagar que você não percebe o quanto se afastou do ponto inicial.
-
-**O Poder da Esperança**
-
-A esperança é parte fundamental de quem somos. E em relacionamentos com ciclos de abuso e reconciliação, a esperança se torna um mecanismo de aprisionamento.
-
-Cada reconciliação, cada momento de afeto genuíno, cada promessa de mudança alimenta a esperança de que a versão idealizada da pessoa vai prevalecer. Essa esperança não é ingenuidade — é uma resposta humana natural.
-
-**O Papel da Vergonha**
-
-A vergonha é, talvez, o maior obstáculo para a saída. "O que as pessoas vão pensar?", "Como vou explicar que fiquei tanto tempo?", "As pessoas vão achar que sou fraca."
-
-A vergonha nos mantém silenciosas. E o silêncio mantém o ciclo.
-
-**Uma Perspectiva Diferente**
-
-Você não ficou porque era fraca, ingênua ou insensata. Ficou porque os mecanismos de controle foram sofisticados o suficiente para manter você lá. Porque seu coração é capaz de amar profundamente. Porque você estava tentando salvar algo em que acreditava.
-
-Esses não são defeitos. São características de uma pessoa capaz de amor genuíno — que merece receber o mesmo em troca.`,
-  },
-  {
-    chapter: 4,
-    title: 'Gaslighting: Quando a Realidade É Sequestrada',
-    content: `O termo "gaslighting" vem da peça e filme "Gaslight" (1944), em que um marido manipula sistematicamente sua esposa para que ela duvide da própria sanidade, alterando sutilmente elementos do ambiente ao seu redor.
-
-Na psicologia moderna, gaslighting é definido como uma forma de abuso psicológico em que o perpetrador faz a vítima questionar sua própria memória, percepção e sanidade.
-
-**Como o Gaslighting Funciona**
-
-*Negação*: "Isso nunca aconteceu." "Você está inventando." Mesmo diante de evidências claras, a pessoa nega veementemente os fatos.
-
-*Trivialização*: "Você é muito sensível." "Não tem nada a ver com o que você está pensando." As preocupações são minimizadas ou ridicularizadas.
-
-*Desvio*: Quando confrontado, a pessoa muda o assunto ou questiona a credibilidade de quem questiona. "Você sempre faz isso, faz uma tempestade num copo d'água."
-
-*Esquecimento seletivo*: "Eu nunca disse isso." Mesmo para situações que você tem certeza de ter acontecido, a pessoa jura não ter acontecido.
-
-**O Efeito Acumulativo**
-
-Isolado, um episódio de gaslighting pode ser ignorado. O problema é o padrão — a repetição constante que, ao longo do tempo, corrói sua confiança na própria percepção.
-
-Você começa a se desculpar por sentir o que sente. A checar constantemente se sua interpretação está "certa". A precisar de validação externa antes de confiar no próprio julgamento.
-
-**Recuperando Sua Percepção**
-
-O caminho de volta começa com a documentação: escrever o que aconteceu, o que foi dito, o que você sentiu. Não para construir um caso — mas para ter uma âncora na realidade quando sua memória for questionada.
-
-Envolve também buscar perspectivas externas confiáveis: um terapeuta, uma amiga próxima que você sabe que te conhece bem e é honesta.
-
-E, fundamentalmente, envolve praticar confiar em si mesma — começando com pequenas coisas. Confiar que você tem frio quando tem frio. Que você está cansada quando está cansada. Que você percebeu o que percebeu.
-
-Sua realidade é real. E você está recuperando o direito de habitá-la.`,
-  },
-  {
-    chapter: 5,
-    title: 'O Processo de Cura',
-    content: `A cura de um relacionamento com características narcisistas é um processo não-linear que envolve múltiplas dimensões: emocional, cognitiva, corporal e social. Não existe uma linha reta do trauma à liberdade — existe um caminho que inclui avanços, retrocessos, surpresas e descobertas.
-
-**A Jornada em Fases**
-
-Embora cada pessoa seja única, muitos especialistas descrevem fases típicas na cura de relacionamentos abusivos:
-
-*Reconhecimento*: O momento em que você começa a ver o relacionamento com clareza, frequentemente após o término ou enquanto ainda está nele. Pode ser gradual ou abrupto.
-
-*Crise e Estabilização*: O período imediatamente após a separação, que pode incluir sintomas agudos de ansiedade, depressão, confusão, saudade intensa. É um momento que requer suporte.
-
-*Processamento*: A fase mais longa, em que você começa a integrar o que aconteceu — a raiva, o luto, a compreensão dos padrões, a reconstrução da identidade.
-
-*Integração e Crescimento*: O que emerge depois — não o retorno ao que você era antes, mas uma versão mais consciente, mais fundamentada, mais alinhada consigo mesma.
-
-**O Papel do Corpo**
-
-A cura não acontece apenas na cabeça. O corpo guarda a memória do trauma — na tensão muscular crônica, nos padrões de respiração, nas reações automáticas.
-
-Práticas somáticas — que trabalham o corpo diretamente — têm mostrado resultados significativos no tratamento de trauma: yoga, dança, corrida, EMDR, Somatic Experiencing. Não é necessário fazer tudo — mas incluir o corpo no processo de cura faz diferença.
-
-**Terapia Como Recurso**
-
-O apoio de um profissional qualificado — especialmente um que trabalhe com trauma e relacionamentos abusivos — pode acelerar e aprofundar o processo de cura. Se você tem acesso a esse recurso, vale considerar.
-
-Se não tem acesso no momento, não está sozinha. Há muito que pode ser feito através de processos autoguiados, grupos de apoio, literatura especializada e conexões com outras mulheres que passaram pelo mesmo.
-
-**O Paradoxo da Cura**
-
-Um dos aspectos mais transformadores do processo de cura é perceber que ele não apenas te liberta de algo — ele te revela algo. Revela uma capacidade de resiliência que você não sabia que tinha. Uma profundidade emocional. Uma clareza sobre o que realmente importa.
-
-A dor que você atravessou não tem de definir você. Mas pode, se você quiser, forjá-la.`,
-  },
-  {
-    chapter: 6,
-    title: 'Limites: A Arte de Se Proteger com Amor',
-    content: `Limites são, talvez, a habilidade mais fundamental para relacionamentos saudáveis — e, ao mesmo tempo, uma das mais difíceis de aprender para quem cresceu ou viveu em ambientes que não os respeitavam.
-
-**O Que São Limites, De Verdade**
-
-Um limite não é uma parede. Não é uma punição. Não é uma forma de controlar o outro.
-
-Um limite é uma declaração de como você precisa ser tratada para que uma relação seja possível. É uma expressão do seu respeito por si mesma. É o reconhecimento de que você tem necessidades, valores e sentimentos que merecem proteção.
-
-**Tipos de Limites**
-
-*Limites físicos*: Envolvem seu corpo, seu espaço físico e sua privacidade.
-
-*Limites emocionais*: Protegem sua vida emocional. Incluem o direito de sentir o que sente sem ser ridicularizada, de não absorver as emoções do outro como responsabilidade sua, de ter espaço para processar suas experiências.
-
-*Limites de tempo e energia*: O direito de dizer não a demandas que drenam você além da sua capacidade.
-
-*Limites digitais*: Especialmente relevantes hoje, incluem o direito de não estar sempre disponível, de ter privacidade nas comunicações.
-
-**Por Que É Tão Difícil**
-
-Para muitas mulheres, estabelecer limites evoca sentimentos de culpa intensa. "Estou sendo egoísta." "Vou magoar a pessoa." "Não é cristão/educado/gentil dizer não."
-
-Essas crenças frequentemente vêm de condicionamentos culturais e familiares profundos — a ideia de que cuidar de si mesma é colocar os outros em segundo lugar.
-
-Mas a realidade é o oposto: quando você não tem limites, quando diz sim quando quer dizer não, quando sacrifica suas necessidades constantemente, você se ressente, esgota e, eventualmente, explode ou colapsa. Isso não serve a ninguém.
-
-**Estabelecendo Limites na Prática**
-
-Começa com identificação: o que me faz sentir desrespeitada, exausta, ansiolosa? O que preciso para me sentir segura?
-
-Depois vem a comunicação: expressar o limite de forma clara, sem excessiva justificativa, sem agressividade. "Não posso atender ligações depois das 22h." "Não me sinto confortável com comentários sobre meu peso."
-
-E então vem a parte mais difícil: manter o limite diante da resistência. Porque pessoas que estão acostumadas a não ter limites estabelecidos frequentemente resistem quando eles aparecem.
-
-A resposta a essa resistência não precisa ser confronto — pode ser simplesmente consistência. Você não precisa convencer o outro de que seu limite é válido. Ele é válido porque você decidiu que é.`,
-  },
-  {
-    chapter: 7,
-    title: 'Construindo o Futuro que Você Merece',
-    content: `Chegar até aqui — seja no ebook, no desafio, no seu processo pessoal — é um ato de coragem. Porque ler sobre si mesma, reconhecer padrões dolorosos, escolher a cura em vez do conforto familiar do que é conhecido — isso exige bravura.
-
-**O Que Você Está Construindo**
-
-A partir de agora, você não está apenas "saindo" de algo. Está construindo algo. Uma forma de se relacionar consigo mesma baseada em autoconhecimento e autocompaixão. Uma maneira de se relacionar com os outros baseada em limites claros e autenticidade. Uma vida que reflete quem você realmente é.
-
-**Reconhecendo Relacionamentos Saudáveis**
-
-Depois de um relacionamento com características narcisistas, pode ser difícil confiar no próprio julgamento sobre novas relações. Alguns sinais de uma relação saudável:
-
-- Você se sente segura para ser quem você é, incluindo suas imperfeições
-- Conflitos são resolvidos com comunicação, não com punição ou silêncio
-- Você não precisa monitorar o humor do outro ou antecipar explosões
-- Seus limites são respeitados — mesmo quando isso é inconveniente para o outro
-- Você se sente, na maioria do tempo, melhor consigo mesma dentro dessa relação do que fora dela
-
-**O Papel do Tempo**
-
-A cura tem seu próprio ritmo. Há momentos em que parece que você está voltando ao início. Dias em que a saudade aparece sem avisar. Noites em que as dúvidas voltam.
-
-Isso não significa que você não evoluiu. Significa que a cura é humana e não-linear. Cada vez que você atravessa um desses momentos difíceis e continua de pé, você está construindo evidência — para você mesma — da sua capacidade de atravessar.
-
-**A Mulher que Você Está Se Tornando**
-
-Não existe versão de você que não passou pelo que passou. Essa experiência é parte de você agora — não como uma cicatriz feia, mas como sabedoria encarnada.
-
-Você sabe reconhecer os sinais. Você sabe o que não quer. Você sabe — ou está aprendendo — o que você precisa e merece.
-
-E você está aqui. Ainda. Crescendo.
-
-Isso não é pouco. Isso é tudo.
-
-Bienvenida ao começo da sua vida.`,
-  },
-]
+export const totalDays = 90
