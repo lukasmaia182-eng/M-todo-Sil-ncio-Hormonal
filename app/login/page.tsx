@@ -4,6 +4,9 @@ import { login } from '@/lib/auth'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
+const TEST_EMAIL = process.env.NEXT_PUBLIC_MEMBER_EMAIL || 'acesso@21dias.com'
+const TEST_PASSWORD = process.env.NEXT_PUBLIC_MEMBER_PASSWORD || 'libertar2024'
+
 export default function LoginPage() {
   const router = useRouter()
   const [email, setEmail] = useState('')
@@ -24,6 +27,19 @@ export default function LoginPage() {
       router.push('/membros')
     } else {
       setError(result.error || 'Erro ao entrar.')
+    }
+  }
+
+  async function handleQuickLogin() {
+    setEmail(TEST_EMAIL)
+    setPassword(TEST_PASSWORD)
+    setError('')
+    setLoading(true)
+    await new Promise((r) => setTimeout(r, 500))
+    const result = login(TEST_EMAIL, TEST_PASSWORD)
+    setLoading(false)
+    if (result.ok) {
+      router.push('/membros')
     }
   }
 
@@ -59,6 +75,31 @@ export default function LoginPage() {
           <h2 className="text-lg font-semibold text-[var(--color-dark)] mb-6">
             Entre na sua conta
           </h2>
+
+          {/* Credenciais de teste */}
+          <div className="mb-6 rounded-2xl border border-[var(--color-brand)]/20 bg-[var(--color-brand-muted)] p-4">
+            <p className="text-xs font-semibold text-[var(--color-brand)] mb-2 uppercase tracking-wide">
+              Acesso para teste
+            </p>
+            <div className="flex flex-col gap-1 mb-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-[var(--color-muted-foreground)]">E-mail:</span>
+                <span className="text-xs font-mono font-semibold text-[var(--color-dark)] select-all">{TEST_EMAIL}</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-[var(--color-muted-foreground)]">Senha:</span>
+                <span className="text-xs font-mono font-semibold text-[var(--color-dark)] select-all">{TEST_PASSWORD}</span>
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={handleQuickLogin}
+              disabled={loading}
+              className="w-full rounded-xl border border-[var(--color-brand)]/30 bg-white text-[var(--color-brand)] font-semibold text-xs py-2 hover:bg-[var(--color-brand)] hover:text-white disabled:opacity-50 transition-all"
+            >
+              Entrar automaticamente com teste
+            </button>
+          </div>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             <div className="flex flex-col gap-1.5">
