@@ -383,7 +383,7 @@ Você sobreviveu. Você aprendeu. Você está em movimento.
 O que aconteceu com você foi real e foi errado. E você, apesar de tudo, está aqui — crescendo, florescendo, se libertando.
 
 Bem-vinda à sua nova vida. Ela começou no Dia 1. Ela continua agora.`,
-    exercise: 'Escreva seu manifesto pessoal — 5 a 10 frases que definem quem você é e o que você acredita sobre si mesma e sobre o que merece. Comece com "Eu sou..." e "Eu mereço...". Guarde isso. Leia quando precisar se lembrar.`,
+    exercise: 'Escreva seu manifesto pessoal — 5 a 10 frases que definem quem você é e o que você acredita sobre si mesma e sobre o que merece. Comece com "Eu sou..." e "Eu mereço...". Guarde isso. Leia quando precisar se lembrar.',
     reflections: [
       'O que "liberdade" significa para mim agora, após esses 21 dias?',
       'O que vou carregar dessa jornada para sempre?',
@@ -445,7 +445,7 @@ O impacto é poderoso porque contrasta brutalmente com o que veio antes. Seu sis
 
 **Recompensa Intermitente**
 
-O elemento que torna o vínculo traumático tão poderoso é a imprevisibilidade. Pesquisas em psicologia comportamental demonstram que reforços intermitentes — recompensas que aparecem de forma aleatória — criam os vínculos mais resistentes e difíceis de extinguir.
+O elemento que torna o vínculo traumático tão poderoso é a imprevisibilidade. Pesquisas em psicologia comportamental demonstram que reforços intermitentes �� recompensas que aparecem de forma aleatória — criam os vínculos mais resistentes e difíceis de extinguir.
 
 É o princípio do caça-níquel. Você nunca sabe quando vai ganhar, então continua apostando. No relacionamento, nunca sabe quando vai receber afeto genuíno, então continua tentando.
 
